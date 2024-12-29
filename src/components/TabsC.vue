@@ -2,7 +2,7 @@
 .tabs-c
   .tabs-c__header
     .row.m-0
-      .col-sm-6.col-lg-4.col-xl.tabs-c__tab.py-3(
+      .col-sm-6.col-lg.col-xl.tabs-c__tab.py-3(
         v-for="(elm,index) of elements"
         :key="'tabs-c-menu-'+elm.id"
         :class="{'tabs-c__tab--active' : selected === elm.id}"
@@ -12,8 +12,9 @@
       )
         .indicador__container(v-if="mostrarIndicador && index === 1")
           .indicador--click
-        img.me-3(:src='elm.iconUrl' :style="{'width':'37px'}")
+        img.me-3(:src="elm.icon" :style="{'max-width':'32px'}")
         span(v-html="elm.titulo")
+
   .tabs-c__content-item(
     v-for="elm of elements"
     :key="'tabs-content-'+elm.id"

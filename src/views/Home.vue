@@ -22,10 +22,8 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
-
+              p.descripcion.mb-4 El ecosistema de Ciencia, Tecnología e Innovación (CTeI) en Colombia, impulsa el desarrollo mediante políticas como el CONPES 4069, Leyes 2162 y 1286, y el Sistema Nacional de CTeI. Destacan instrumentos como SIGP, ScienTI, Publindex y RedCol, que fortalecen la gestión, visibilidad y calidad de la investigación. Se promueve la educación STEM, la equidad de género, la descentralización y la participación social en ciencia. Aunque persisten desafíos como la fuga de cerebros y la baja inversión, el país tiene oportunidades en biodiversidad, energías renovables y emprendimiento, para consolidar un ecosistema innovador.
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold La ciencia transforma desafíos en oportunidades y construye un futuro brillante.
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto
@@ -102,10 +100,10 @@ export default {
       text-align: center
       display: flex
       .iniciar-btn-text
-        background-color: $color-sistema-d
+        background-color: #15DA7E !important
         padding: 12px 42px 12px 32px
         width: 100%
-        color: #fff
+        color: #000 !important
     .icon
       background-color: $color-sistema-e
       padding: 0px 20px
@@ -145,13 +143,14 @@ export default {
 
 .iniciar-btn-container
   .iniciar-btn-text
-    transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
-    color: #0B0A0A !important
+    transition: all 0.4s ease-in-out
+    background-color: $color-btn-fondo !important
+    color: $color-btn-texto !important
   .icon
-    transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    transition: all 0.4s ease-in-out
+    background-color: darken($color-btn-fondo, 20%) !important
   &:hover
     .icon
-      transform: scale(1.06)
+      transform: scale(1.05)
+      cursor: pointer
 </style>
