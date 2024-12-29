@@ -37,7 +37,7 @@
 
 .brounded-sm
   border-radius: 8px !important
-
+// **********************************************************************
 .bg-color
   &-1
     background-color: #CFF7E4 
@@ -63,28 +63,12 @@
     background-color: #EDF3FC
   &-12
     background-color: #ECD4FE
+  &-13
+    background-color: #5A1A8A
   &-sintesis
     background-color: #F9F9F9
   &-white
     background-color: #fff
-
-.border-top.color-primario
-  border-top: 5px solid $color-primario !important
-.br-15
-  border-radius: 15px !important
-.mb-cus
-  @media screen and (max-width: $bp-max-sm)
-    margin-bottom: 1.5rem !important
-// Full Width Background
-.bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-  @media screen and (max-width: $bp-max-sm)
-    padding-left: 1.5rem
-    padding-right: 1.5rem
-
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
@@ -104,6 +88,43 @@
   &-5
     background-image: url("../assets/bg/5.svg") !important
     background-position: top
+  &-6
+    background-image: url("../assets/curso/intro/1.svg") !important
+    background-position: center
+    @media screen and (max-width: $bp-max-sm)
+      background-image: url("../assets/curso/intro/2.svg") !important
+
+
+// **********************************************************************
+
+.border-top.color-primario
+  border-top: 5px solid $color-primario !important
+.br-15
+  border-radius: 15px !important
+.mb-cus
+  @media screen and (max-width: $bp-max-sm)
+    margin-bottom: 1.5rem !important
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: top
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+    background-size: cover
+
+
 // Variables
 $custom-card-border-radius: 0px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
