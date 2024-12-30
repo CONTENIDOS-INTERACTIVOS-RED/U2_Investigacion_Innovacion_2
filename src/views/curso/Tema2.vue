@@ -26,14 +26,6 @@
                 .lista-ol--cuadro__vineta
                   span 3
                 p.mb-0 #[b Propuestas híbridas:] combinan elementos digitales y físicos para crear experiencias únicas.
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 1
-                p.mb-0 #[b Alianzas locales:] aprovechan redes empresariales y adaptan propuestas de valor, a las condiciones socioeconómicas.
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 2
-                p.mb-0 #[b Estrategias graduales:] adoptadas por plataformas de comercio electrónico, iniciando en nichos específicos para expandirse posteriormente, fortaleciendo la logística y construyendo una base sólida de usuarios.
               
           .col-sm-12.col-lg-6.d-none.d-lg-block
             img(src='@/assets/curso/t2/2.svg', alt='')

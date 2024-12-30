@@ -52,6 +52,33 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo: 'Aliados para los procesos de innovación',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Gestión de portafolio de innovación',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Métricas y KPIs de innovación',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Propiedad intelectual y protección de innovaciones',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
         desarrolloContenidos: true,
