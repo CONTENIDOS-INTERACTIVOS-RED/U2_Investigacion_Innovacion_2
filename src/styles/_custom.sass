@@ -65,6 +65,16 @@
     background-color: #ECD4FE
   &-13
     background-color: #5A1A8A
+  &-14
+    background-color: #15DA7E
+  &-15
+    background-color: #A530FE
+  &-16
+    background-color: #3AD1E9
+  &-17
+    background-color: #B2CDEB
+  &-18
+    background-color: #EAF2FB
   &-sintesis
     background-color: #F9F9F9
   &-white
@@ -93,8 +103,21 @@
     background-position: center
     @media screen and (max-width: $bp-max-sm)
       background-image: url("../assets/curso/intro/2.svg") !important
-
-
+  &-7
+    background-image: url("../assets/bg/blue-up.svg") !important
+    background-position: center
+  &-8
+    background-image: url("../assets/bg/purple-up.svg") !important
+    background-position: center
+  &-9
+    background-image: url("../assets/bg/purple-icons.svg") !important
+    background-position: center
+  &-10
+    background-image: url("../assets/bg/green-icons.svg") !important
+    background-position: center
+  &-11
+    background-image: url("../assets/bg/blue-down.svg") !important
+    background-position: center
 // **********************************************************************
 
 .border-top.color-primario
@@ -204,7 +227,7 @@ $custom-card-img-height: 322px
     color: $color-sistema-texto
 
 .img-infografica
-  background-color: transparent
+  background-color: transparent !important
 
 .img-infografica__item, .img-infografica-b__item
   width: 48px !important
@@ -225,8 +248,8 @@ $custom-card-img-height: 322px
 
 
 
-.lista-ol--cuadro__vineta
-  background-color: $color-secundario
+.color-terciario .lista-ol--cuadro__vineta
+  background-color: #b2cdeb !important
   color: #000
   min-width: 32px
   min-width: 28px
@@ -259,3 +282,16 @@ i.fas.fa-quote-left
 .lista-ol--cuadro__vineta.color-acento-contenido
   background-color: $color-acento-contenido !important
   color: #fff !important
+
+.card-color
+  @media screen and (max-width: $bp-max-sm)
+    margin-bottom: 1.5rem !important
+  &__title
+    border-radius: 15px 15px 0 0 !important
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important
+  &__text
+    border-radius: 0 0 15px 15px !important
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important
+
+.slyder-f__btn i
+  background-color: $color-acento-contenido !important
