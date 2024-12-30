@@ -415,16 +415,20 @@
       .px-5.py-4
         p.mb-0 En Colombia, la transformación digital ha impulsado el uso de herramientas como CRM y marketing automatizado, mejorando el seguimiento y la personalización del pipeline. Por ejemplo, empresas de retail han adoptado estrategias omnicanal que integran puntos de contacto físicos y digitales, personalizando experiencias y mejorando tasas de conversión.
 
-    .bg-full-width.bg-color-white.shadow-soft.mb-0(data-aos="fade-up")
+    .bg-full-width.bg-color-white.shadow-soft.mb-0
       .px-5.py-4
-        .row.justify-content-between.align-items-center
-          .col.mb-3.mb-sm-0
-            h3.mb-1 Embudo de ventas
-            p.mb-0 Para ampliar los conocimientos en los temas de investigación estudiados, se sugiere explorar el siguiente video:
-          .col-sm-auto
-            a.boton.color-acento-botones(href='https://www.youtube.com/live/zXc2YwI5xmQ' target='_blank')
-              span Ver video
-              i.fas.fa-arrow-right
+        .row.justify-content-around.align-items-center
+          .col-md-auto.d-none.d-lg-block
+              img(src="@/assets/template/bg-icono-video.svg", style="width: 70px")
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h3.mb-1 Embudo de ventas
+                p.mb-0 Para ampliar los conocimientos en los temas de investigación estudiados, se sugiere explorar el siguiente video:
+              .col-sm-auto
+                a.boton.color-acento-botones(href='https://www.youtube.com/live/zXc2YwI5xmQ' target='_blank')
+                  span Ver video
+                  i.fas.fa-arrow-right
 
 
 
