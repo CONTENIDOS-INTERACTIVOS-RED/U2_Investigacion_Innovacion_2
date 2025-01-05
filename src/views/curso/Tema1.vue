@@ -415,7 +415,7 @@
       .px-5.py-4
         p.mb-0 En Colombia, la transformación digital ha impulsado el uso de herramientas como CRM y marketing automatizado, mejorando el seguimiento y la personalización del pipeline. Por ejemplo, empresas de retail han adoptado estrategias omnicanal que integran puntos de contacto físicos y digitales, personalizando experiencias y mejorando tasas de conversión.
 
-    .bg-full-width.bg-color-white.shadow-soft.mb-0
+    .bg-full-width.bg-color-white.shadow-soft.mb-5
       .px-5.py-4
         .row.justify-content-around.align-items-center
           .col-md-auto.d-none.d-lg-block
@@ -429,7 +429,61 @@
                 a.boton.color-acento-botones(href='https://www.youtube.com/live/zXc2YwI5xmQ' target='_blank')
                   span Ver video
                   i.fas.fa-arrow-right
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://repository.agrosavia.co/handle/20.500.12324/18625' target='_blank' rel='noopener noreferrer') AGROSAVIA. (2022). Estudios de vigilancia tecnológica aplicados a cadenas productivas del sector agropecuario colombiano.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://colombiafintech.co/' target='_blank' rel='noopener noreferrer') Colombia Fintech. (s.f.). Portal oficial de Colombia Fintech.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://educaedtech.com/' target='_blank' rel='noopener noreferrer') EducaEdTech. (s.f.). Portal oficial de EducaEdTech.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://healthtechcolombia.co/' target='_blank' rel='noopener noreferrer') HealthTech Colombia. (s.f.). Portal oficial de HealthTech Colombia.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://platzi.com/' target='_blank' rel='noopener noreferrer') Platzi. (s.f.). Portal oficial de Platzi.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.rappi.com.co/' target='_blank' rel='noopener noreferrer') Rappi. (s.f.). Portal oficial de Rappi Colombia.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://tpaga.co/' target='_blank' rel='noopener noreferrer') Tpaga. (s.f.). Portal oficial de Tpaga.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.derechodeautor.gov.co/es/tramites-y-servicios/capacitaciones' target='_blank' rel='noopener noreferrer') Dirección Nacional de Derechos de Autor.
+
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/live/zXc2YwI5xmQ' target='_blank' rel='noopener noreferrer') Alta Estrategia. (2021). ¿Qué es y cómo funciona un embudo de ventas?.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/g9aQUC-Pqu4?si=iRMSDyFTyk17lRT9' target='_blank' rel='noopener noreferrer') Ministerio TIC Colombia. (2021). Talleres de socialización del MECE.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/v6HIfBbkw20?si=RnU3kvXvMg7mXQMT' target='_blank' rel='noopener noreferrer') Universidad Nacional de Colombia – Sitio Oficial. (2020). Transferencia tecnológica.
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 </template>

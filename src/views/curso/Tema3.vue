@@ -201,7 +201,37 @@
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/t3/10.png', alt='')
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.innpulsacolombia.com/milab/' target='_blank' rel='noopener noreferrer') iNNpulsa Colombia. (s.f.). MiLab: Laboratorio de Innovación Pública.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.minciencias.gov.co/innovacion/empresarial/alianzas' target='_blank' rel='noopener noreferrer') Ministerio de Ciencia, Tecnología e Innovación. (s.f.). Alianzas para la innovación empresarial.
+            
+            
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/IE0-mHKwTWo?si=VowezJFbjjeij6o7' target='_blank' rel='noopener noreferrer') Cultura 52. (2017). ¿Cómo Construir una Cultura de Innovación?.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/live/aDSH8D4xnTA?si=evP3oxEbR-izZJZa' target='_blank' rel='noopener noreferrer') Jorge Valencia. (2019). Propiedad intelectual, Colombiatex 2019 – Telemedellin.
+
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
     .bg-full-width.border-top.actividad.ctn-actividad
       .p-4.p-md-5

@@ -204,7 +204,7 @@
           .col-lg-5.d-none.d-lg-block
              img(src='@/assets/curso/t2/17.png', alt='')
 
-    .bg-full-width.bg-color-white.shadow-soft.mb-0(data-aos="fade-up")
+    .bg-full-width.bg-color-white.shadow-soft.mb-5(data-aos="fade-up")
       .px-5.py-4
         .row.justify-content-around.align-items-center
           .col-md-auto.d-none.d-lg-block
@@ -218,6 +218,39 @@
                 a.boton.color-acento-botones(href='https://youtu.be/ln-UqKWZDZA?si=-nnIsjJxMdcAJ-Fv' target='_blank')
                   span Ver video
                   i.fas.fa-arrow-right
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://colombia.endeavor.org/' target='_blank' rel='noopener noreferrer') Endeavor Colombia. (s.f.). Portal oficial de Endeavor Colombia.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://apps.co/portal/' target='_blank' rel='noopener noreferrer') MinTIC. (s.f.). Portal oficial de Apps.co.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.sic.gov.co/cursos-virtuales' target='_blank' rel='noopener noreferrer') Superintendencia de Industria y Comercio
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/uWzeIPIIGYs?si=HyWbzK8k7rz5oyAq' target='_blank' rel='noopener noreferrer') EOI Escuela de Organización Industrial. (2013). Business Market Elche. Modelos de Negocio Innovadores.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/ln-UqKWZDZA?si=-nnIsJxMdcAJ-Fv' target='_blank' rel='noopener noreferrer') Valora Analitik. (2022). Temas sociales, ambientales y de gobernanza, el nuevo foco de las empresas.
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 </template>
 
