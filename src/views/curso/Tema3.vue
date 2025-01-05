@@ -181,7 +181,7 @@
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
                   p <strong>Anexo. </strong> Instituciones que apoyan la innovación
-    .row.justify-content-center.mb-0(data-aos="fade-up")
+    .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-sm-12.col-lg-8
         p.mb-5 Se ha culminado el recorrido integral por los diversos aspectos que conforman el ecosistema de innovación, desde sus fundamentos conceptuales, hasta los mecanismos institucionales que lo sustentan. Esta comprensión integral, permitirá abordar los proyectos de innovación con una perspectiva más informada y estratégica, aprovechando los distintos recursos y apoyos disponibles en el ecosistema colombiano de innovación.
         .bg-color-white.shadow-soft.mb-5
@@ -203,7 +203,10 @@
 
 
 
-
+    .bg-full-width.border-top.actividad.ctn-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario='cuestionario'/>
 
 
 
@@ -214,6 +217,175 @@
 <script>
 export default {
   name: 'Tema3',
+  data: () => ({
+    cuestionario: {
+      tema: '--',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Cuál de los siguientes aspectos incluye la gestión de la innovación?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Identificación de oportunidades',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Implementación de soluciones innovadoras',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Comercialización de soluciones innovadoras',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Todas las anteriores',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente! La gestión de la innovación abarca desde la identificación de oportunidades hasta la implementación y comercialización de soluciones innovadoras. Es un proceso sistemático que incluye múltiples etapas y aspectos.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Cuál de los siguientes NO es un actor clave del ecosistema de innovación colombiano?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Universidades',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Centros de investigación',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Incubadoras',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sindicatos',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Los sindicatos no se mencionan como un actor clave del ecosistema de innovación colombiano en el texto. Los actores mencionados incluyen universidades, centros de investigación, empresas, entidades gubernamentales, incubadoras, aceleradoras y fondos de inversión.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿En cuál de los siguientes sectores se menciona un ejemplo de transferencia tecnológica en industrias 4.0?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Sector agropecuario',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sector industrial',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Sector comercial',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sector social',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! En el texto se menciona un ejemplo de transferencia tecnológica exitosa en el sector industrial colombiano, donde la implementación de tecnologías 4.0 ha permitido optimizar la producción, reducir costos y mejorar la calidad de los productos.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Cuál de los siguientes recursos se menciona en el texto como una fuente de información valiosa para la inteligencia competitiva en Colombia?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Redes sociales',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Medios de comunicación masiva',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Cámaras de comercio',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Encuestas de opinión pública',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Las Cámaras de Comercio son mencionadas en el texto como una fuente importante de información y apoyo para la inteligencia competitiva en Colombia.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál de los siguientes sectores se menciona en el texto como un ejemplo de aplicación de modelos de negocio innovadores con emprendimientos sociales en Colombia?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Sector financiero',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Sector energético',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sector social',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Sector de la construcción',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente! En el texto se menciona que en el sector social de Colombia se presentan ejemplos inspiradores de modelos de negocio innovadores que combinan impacto social con sostenibilidad financiera. Las empresas B y los emprendimientos sociales han desarrollado modelos híbridos que atienden necesidades comunitarias mientras generan retornos económicos.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Felicidades! Has superado la prueba con éxito.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
