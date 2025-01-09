@@ -258,7 +258,7 @@
             h3.mb-1 Transferencia tecnológica
             p.mb-0 Para ampliar los conocimientos en los temas de investigación estudiados, se sugiere explorar el siguiente video:
           .col-sm-auto
-            a.boton.color-acento-botones(href='https://youtu.be/v6HIfBbkw20?si=RnU3kvXvMg7mXQMT' target='_blank')
+            a.boton.color-acento-botones(href='https://youtu.be/cjAnbsyB8Ok' target='_blank')
               span Ver video
               i.fas.fa-arrow-right
 
