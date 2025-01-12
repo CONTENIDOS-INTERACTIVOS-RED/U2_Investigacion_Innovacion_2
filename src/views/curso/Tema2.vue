@@ -31,7 +31,7 @@
             img(src='@/assets/curso/t2/2.svg', alt='')
     .bg-full-width.bg-color-9.mb-5(data-aos="fade-up")
       .px-5.py-4
-        p.mb-0 En #[b Colombia], estos modelos están ganando terreno en sectores como el tecnológico, social y financiero, donde startups y empresas tradicionales, integran prácticas innovadoras para mantenerse competitivas.
+        p.mb-0 En #[b Colombia], estos modelos están ganando terreno en sectores como el tecnológico, social y financiero, donde #[i startups] y empresas tradicionales, integran prácticas innovadoras para mantenerse competitivas.
     p.mb-4.fw-bold(data-aos="fade-up") Componentes esenciales de un modelo de negocio innovador:
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-sm-12.col-lg-4.d-none.d-lg-block
@@ -196,7 +196,7 @@
           .col-lg-7
              h2.mb-4 Gestión de la innovación
              p.mb-4 Se invita a leer el documento para comprender cómo la gestión de la innovación, aborda la financiación estratégica, el escalamiento eficiente y la sostenibilidad, como pilares para transformar ideas en realidades impactantes.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/gestion-innovacion.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto

@@ -31,7 +31,7 @@
           .custom-image-card__text.p-4
             h4.mb-2.text-center Herramientas de gestión
             p.mb-0.text-center Metodologías ágiles y herramientas como incubadoras y aceleradoras, para fomentar la innovación empresarial. 
-            p.mb-0.text-center #[b Ejemplo:] Startups en fintech, desarrollan soluciones tecnológicas apoyadas por incubadoras.
+            p.mb-0.text-center #[b Ejemplo:] #[i Startups] en #[i fintech], desarrollan soluciones tecnológicas apoyadas por incubadoras.
 
     .bg-full-width.bg-fondo-7.mb-5(data-aos="fade-up")
       .px-4.px-md-5.pb-md-3
@@ -82,8 +82,8 @@
                   .col
                     .row.justify-content-between.align-items-center
                         .col.mb-3.mb-sm-0
-                          h3.mb-1 Portal oficial de Colombia Fintech
-                          p.mb-0 Para ampliar los conocimientos sobre investigación científica, se recomienda consultar: Colombia Fintech. (s.f.). Portal oficial de Colombia Fintech. 
+                          h3.mb-1 Portal oficial de Colombia #[i Fintech]
+                          p.mb-0 Para ampliar los conocimientos sobre investigación científica, se recomienda consultar: Colombia #[i Fintech]. (s.f.). Portal oficial de Colombia #[i Fintech]. 
                         .col-sm-auto
                           a.boton.color-acento-botones(href='https://colombiafintech.co/' target='_blank')
                            span Ir al sitio
@@ -120,7 +120,7 @@
                   .row.justify-content-center
                     .col-6.col-md-4.mb-4
                       img(src='@/assets/curso/t1/9.svg')
-                  h4.text-center Empresas y startups
+                  h4.text-center Empresas y #[i startups]
                   p.mb-0.text-center Implementan innovaciones para responder a desafíos del mercado.
 
               .row.py-4.px-3.h-100
@@ -163,7 +163,7 @@
               p.mb-0 Ejemplos como Rappi, Platzi y Tpaga, reflejan el impacto positivo del ecosistema. Estas empresas han aprovechado los programas de aceleración, financiamiento y mentorías, ofrecidos por incubadoras y fondos de inversión, para escalar sus operaciones y consolidarse en mercados nacionales e internacionales.
           .col-sm-12.col-lg-4.d-none.d-lg-block.mb-0
             img.mb-0(src='@/assets/curso/t1/13.svg', alt='')
-
+    h2.mb-3 Colaboración y aprendizaje colectivo
     .row.justify-content-center.mb-5(data-aos="fade-up")
           .col-sm-12.col-lg-4.d-none.d-lg-block
             img(src='@/assets/curso/t1/14.png', alt='')
@@ -214,7 +214,7 @@
           .tarjeta.bg-white.p-3(x="57.8%" y="88.5%" numero="+")
             .h5.mb-2 Tecnológico
             p Innovación caracterizada por ciclos rápidos de desarrollo y la búsqueda constante de soluciones digitales.
-            p #[b Ejemplo:] startups en fintech y edtech.
+            p #[b Ejemplo:] #[i startups en fintech y edtech.]
 
           .tarjeta.bg-white.p-3(x="75.6%" y="10.7%" numero="+")
             .h5.mb-2 Comercial
@@ -249,7 +249,7 @@
       h2 #[span 1.2] Transferencia de tecnología en los sectores
     .bg-full-width.bg-color-16.mb-0(data-aos="fade-up")
       .px-5.py-4
-        p.mb-0.fw-bold La transferencia de tecnología en Colombia, se ha convertido en un eje clave para el desarrollo económico y la competitividad. Este proceso implica la difusión de conocimientos, técnicas y productos innovadores, desde el ámbito académico y de investigación hasta el sector empresarial y productivo.
+        p.mb-0.fw-bold La transferencia de tecnología, es el proceso que facilita el intercambio de conocimientos, técnicas y avances tecnológicos, entre diferentes sectores y organizaciones.
 
     .bg-full-width.bg-color-white.shadow-soft.mb-5(data-aos="fade-up")
       .px-5.py-4
@@ -413,7 +413,7 @@
 
     .bg-full-width.bg-color-16.mb-0(data-aos="fade-up")
       .px-5.py-4
-        p.mb-0 En Colombia, la transformación digital ha impulsado el uso de herramientas como CRM y marketing automatizado, mejorando el seguimiento y la personalización del pipeline. Por ejemplo, empresas de retail han adoptado estrategias omnicanal que integran puntos de contacto físicos y digitales, personalizando experiencias y mejorando tasas de conversión.
+        p.mb-0 En Colombia, la transformación digital ha impulsado el uso de herramientas como CRM y #[i marketing] automatizado, mejorando el seguimiento y la personalización del pipeline. Por ejemplo, empresas de retail han adoptado estrategias omnicanal que integran puntos de contacto físicos y digitales, personalizando experiencias y mejorando tasas de conversión.
 
     .bg-full-width.bg-color-white.shadow-soft.mb-5
       .px-5.py-4
@@ -442,7 +442,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://colombiafintech.co/' target='_blank' rel='noopener noreferrer') Colombia Fintech. (s.f.). Portal oficial de Colombia Fintech.
+              a(href='https://colombiafintech.co/' target='_blank' rel='noopener noreferrer') Colombia #[i Fintech]. (s.f.). Portal oficial de Colombia #[i Fintech].
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')

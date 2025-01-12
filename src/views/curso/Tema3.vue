@@ -44,7 +44,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-sm-12.col-lg-8
         .bg-color-1.p-4
-          p.mb-0 Parques tecnológicos y colaboraciones entre startups, empresas y universidades, han acelerado procesos de innovación, reduciendo riesgos y maximizando impactos. Según Marín Marín y Boffo (2021), las alianzas estratégicas son esenciales para construir ecosistemas sostenibles y fortalecer capacidades organizacionales.
+          p.mb-0 Parques tecnológicos y colaboraciones entre #[i startups], empresas y universidades, han acelerado procesos de innovación, reduciendo riesgos y maximizando impactos. Según Marín Marín y Boffo (2021), las alianzas estratégicas son esenciales para construir ecosistemas sostenibles y fortalecer capacidades organizacionales.
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/t3/2.png', alt='')
 
@@ -56,7 +56,7 @@
           .col-lg-7
              h2.mb-4 Cultura organizacional innovadora
              p.mb-4 En el documento, se explica cómo una cultura organizacional innovadora es esencial para promover la creatividad y la adaptación en un entorno competitivo. También se aborda la importancia de la gestión del cambio en los procesos de innovación, destacando prácticas como la comunicación estratégica, el liderazgo transformacional y la formación para facilitar transiciones exitosas.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/cultura-organizacional.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
@@ -176,7 +176,7 @@
           .col-lg-7
              h2.mb-4 Instituciones que apoyan la innovación
              p.mb-4 Se invita a explorar las instituciones que apoyan la innovación en Colombia, destacando su impacto en el fortalecimiento del ecosistema innovador. Entidades como Minciencias, iNNpulsa y el SENA, junto con aliados internacionales como Endeavor y organismos multilaterales, ofrecen recursos, formación y oportunidades de colaboración, esenciales para proyectos innovadores.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/instituciones-innovacion.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
