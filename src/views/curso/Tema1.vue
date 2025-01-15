@@ -320,7 +320,7 @@
           .col-lg-7
              h2.mb-4 Tendencias globales y locales en innovación
              p.mb-4 Se invita a explorar cómo las tendencias globales y locales en innovación están transformando los sectores productivos y sociales. Desde la adopción de tecnologías emergentes como la inteligencia artificial y la economía circular hasta iniciativas locales como ciudades inteligentes y la transformación digital de pymes en Colombia, estas tendencias redefinen la forma de crear valor.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/tendencias_globales.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
