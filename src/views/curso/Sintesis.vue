@@ -1,80 +1,11 @@
 <template lang="pug">
-.curso-main-container.creditos-vista
-  BannerInterno(subTitulo="SÍNTESIS")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p(data-aos="fade-up").mb-5 Colombia impulsa la innovación a través de un ecosistema que conecta universidades, empresas y entidades gubernamentales, fomentando estrategias disruptivas y sostenibles, en sectores claves como el agroindustrial y tecnológico. Este enfoque integral, apoyado por herramientas como RoadMaps y alianzas estratégicas, fortalece la competitividad del país y su capacidad para generar soluciones con impacto local e internacional.
+  .curso-main-container.creditos-vista
+    BannerInterno(subTitulo="SÍNTESIS")
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+      p(data-aos="fade-up") La Unidad 2: Scrum y gestión de equipos, profundiza en la implementación de la metodología Scrum como marco de trabajo ágil para la gestión de proyectos de software. A lo largo de la unidad, se analizan los roles fundamentales del Product Owner, el Scrum Master y el equipo de desarrollo, así como la estructura e importancia de los ciclos de Sprint y el uso de herramientas digitales como JIRA y Trello, para el seguimiento de actividades. Esta unidad no solo ofrece un enfoque técnico y organizacional, sino que también resalta la importancia de la colaboración, la mejora continua y la entrega incremental de valor. Su abordaje práctico permite a los estudiantes desarrollar competencias claves para liderar y participar eficazmente en equipos ágiles, preparándolos para responder con flexibilidad y eficiencia, a los desafíos del entorno laboral actual.
+
       .row.justify-content-center
         .col-lg-12.mb-5
           figure.bg-color-sintesis.p-5.brounded
-            img(src='@/assets/curso/sintesis/sintesis.svg', alt='')
+            img(src='@/assets/curso/sintesis.svg', alt='', data-aos="zoom-in")
 </template>
-<script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
-import Footer from '../../components/plantilla/Footer'
-export default {
-  name: 'Creditos',
-  components: {
-    BannerInterno,
-    Footer,
-  },
-  data: () => ({
-    configTitulos: {
-      liderEquipo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
-      contenidoInstruccional: 'CONTENIDO INSTRUCCIONAL',
-      desarrolloProducto:
-        'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
-      gestoresRepositorio: 'GESTORES DE REPOSITORIO',
-    },
-  }),
-  computed: {
-    creditosData() {
-      return this.$config.creditos
-    },
-    creditosAdicionales() {
-      return this.$config.creditosAdicionales
-    },
-  },
-  methods: {
-    renderText(textObj) {
-      let newText = ''
-      if (Array.isArray(textObj)) {
-        textObj.forEach((texto, index) => {
-          newText += (index ? '<br/>' : '') + texto
-        })
-      } else {
-        newText += textObj
-      }
-      return newText
-    },
-  },
-}
-</script>
-
-<style lang="sass">
-.creditos-vista
-  .tarjeta.credito
-    background-color: $color-sistema-d
-
-.creditos
-  color: $color-sistema-b
-  overflow-x: auto
-
-  &__item
-    min-width: 490px
-
-  p
-    line-height: 1.3em
-    margin-bottom: 0
-    color: $color-sistema-b
-
-  &__titulo
-    font-weight: $base-bold-font-weight
-    background-color: $color-sistema-d
-    padding: 5px 10px
-    border-top-radius: $base-border-radius
-    border-top-left-radius: $base-border-radius
-    border-top-right-radius: $base-border-radius
-  table
-    td, th
-      border-color: $color-sistema-d
-</style>

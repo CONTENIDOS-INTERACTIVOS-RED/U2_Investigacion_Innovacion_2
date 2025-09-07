@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '2',
-    tituloUnidad: 'Ruta de innovación',
+    tituloUnidad: ' Scrum y gestión de equipos',
   },
   menuPrincipal: {
     menu: [
@@ -15,32 +15,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Gestión de la innovación',
+        titulo: 'Roles en Scrum',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Ecosistema de innovación colombiano',
+            titulo: 'Funciones del Product Owner',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Transferencia de tecnología en los sectores',
+            titulo: 'Funciones del Scrum Master',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Entorno del negocio',
+            titulo: 'Interacción entre roles Scrum',
             hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'RoadMap tecnológico y embudo de ventas (Pipeline)',
-            hash: 't_1_4',
           },
         ],
       },
@@ -48,32 +42,52 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Negocios innovadores',
+        titulo: 'Ciclos de Sprint',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Fases del Sprint',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Sprint Backlog',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Estimación y velocidad',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Aliados para los procesos de innovación',
+        titulo: 'Beneficios y desafíos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Gestión de portafolio de innovación',
+            titulo: 'Uso de JIRA en Scrum',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Métricas y KPIs de innovación',
+            titulo: 'Trello para equipos ágiles',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Propiedad intelectual y protección de innovaciones',
+            titulo: 'Comparación JIRA vs Trello',
             hash: 't_3_3',
           },
         ],
@@ -116,189 +130,130 @@ export default {
   referencias: [
     {
       referencia:
-        'Cabrera Paniagua, D. (2020). Innovación: perspectivas multidisciplinarias. RIL editores.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/189560',
+        'Heras del Dedo, R. D. L. & Álvarez García, A. (2017). Métodos ágiles: Scrum, Kanban, Lean. Difusora Larousse - Anaya Multimedia.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/122933',
     },
     {
       referencia:
-        'Fontana, C. (2024). Superlíderes: los superpoderes de creatividad e innovación. Pluma Digital Ediciones.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/261664',
+        'Brunetta, H. (2023). OKRs y métricas de negocios: metodologías ágiles para resultados exitosos. Pluma Digital Ediciones.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/231789',
     },
     {
       referencia:
-        'Germán García, E. Campo González, D. & Solarte, M. C. (2022). Conocimiento científico y educación ambiental para la formación de profesores. Programa Editorial Universidad del Valle.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/269634?page=1',
+        'De Zunzunegui, A. (2023). Gestión de proyectos en AGILE: cómo utilizar las metodologías ágiles para mejorar tu capacidad de respuesta y lanzar proyectos de éxito. LID Editorial España.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/270594',
     },
     {
       referencia:
-        'Hervás Gómez, C. (Coord.) & Rodríguez-Gallego, M. (Coord.). (2020). Innovación e investigación en la sociedad digital. Ediciones Octaedro, S.L.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/163526',
+        'Monte Galiano, J. (2016). Implantar scrum con éxito. Editorial UOC.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/58575',
     },
     {
       referencia:
-        'López Cantos, F. J. (2018). Cultura visual y conocimiento científico: comunicación transmedia de la ciencia en la era Big Data. Editorial UOC.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/116307?page=1',
+        'Castillo, A. (2010). Conceptualización del proceso de implementación de software: perspectivas ágil y disciplinada. Revista Ciencia e Ingeniería, 31(3).',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/17741',
     },
     {
       referencia:
-        'Marín Marín, J. A. & Boffo, A. (2021). Retos de la investigación y la innovación en la sociedad del conocimiento. Dykinson.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/218623?page=3',
-    },
-    {
-      referencia:
-        'Miranda González, F. J. (2023). La gestión de la innovación en la empresa. Servicio de Publicaciones de la Universidad de Extremadura.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/271172',
-    },
-    {
-      referencia:
-        'Morales Cevallos, M. B. (Coord.), Vargas Serrano, A. (Coord.) & Álvarez Martínez-Iglesias, J. M. (Coord.). (2023). Innovación y Transferencias de conocimientos. Dykinson.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/232623',
-    },
-    {
-      referencia:
-        'Perdomó Charry, G. (2020). El conocimiento y la innovación: desde las empresas a las redes sociales. Fondo Editorial CEIPA.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/217705',
-    },
-    {
-      referencia:
-        'Martínez-Gómez, J. (Comp.). (2024). Innovación y competitividad en las organizaciones. Universidad Católica Luis Amigó.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/253489?page=1',
-    },
-    {
-      referencia:
-        'Puello-Socarrás, G. E. & Ballén Buitrago, D. M. (2021). Seguridad y salud para el trabajador informal: ruta de innovación social para el trabajo digno. Corporación Universitaria Minuto de Dios.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/231727?page=1',
+        'Serrano Junco, C. L. (2022). Metodologías ágiles en las pymes: un modelo integral de auditoría en la gestión interna. Corporación Universitaria Minuto de Dios.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/231777',
     },
   ],
   glosario: [
     {
-      termino: 'Aceleradoras',
+      termino: 'Burndown Chart',
       significado:
-        'Organizaciones que ayudan a las startups a crecer y escalar sus negocios, rápidamente.',
+        'Gráfico que muestra el trabajo pendiente en un Sprint, útil para evaluar el progreso diario.',
     },
     {
-      termino: 'CONPES 4069',
+      termino: 'Daily Scrum',
       significado:
-        'Documento de Política Pública, que establece directrices para fortalecer el Sistema Nacional de Ciencia, Tecnología e Innovación, en Colombia.',
+        'Reunión diaria de 15 minutos donde el equipo sincroniza su trabajo y detecta impedimentos.',
     },
     {
-      termino: 'Ecosistema de innovación',
+      termino: 'Definición de terminado',
       significado:
-        'Red dinámica y compleja de actores, instituciones y relaciones, que colaboran para fomentar el desarrollo tecnológico y la innovación en el país.',
+        'Criterios que deben cumplirse para considerar que una tarea está completamente finalizada.',
     },
     {
-      termino: '<i>Edtech</i>',
+      termino: 'Epic',
       significado:
-        'Empresas que utilizan la tecnología, para ofrecer soluciones en el sector educativo.',
+        'Gran bloque funcional compuesto por múltiples historias de usuario más pequeñas.',
     },
     {
-      termino: 'Embudo de ventas (<i>Pipeline</i>)',
+      termino: 'Equipo de desarrollo',
       significado:
-        'Modelo estratégico que ilustra el recorrido que sigue un cliente potencial desde el primer contacto, hasta la finalización de la venta, con el fin de identificar y mejorar cada fase del proceso comercial.',
+        'Grupo multidisciplinario que diseña, implementa y entrega funcionalidades en cada Sprint.',
     },
     {
-      termino: 'Empresas B',
+      termino: 'Historia de usuario',
       significado:
-        'Son organizaciones que buscan combinar la rentabilidad económica con el impacto social y ambiental, certificadas por <i>B Lab</i>.',
+        'Descripción breve y funcional de una necesidad del usuario, escrita desde su perspectiva.',
     },
     {
-      termino: 'ESG <i>(Environmental, Social and Governance)</i>',
+      termino: 'JIRA',
       significado:
-        'Criterios ambientales, sociales y de gobernanza, que se utilizan para evaluar el impacto de una organización.',
+        'Plataforma profesional de gestión ágil que soporta Scrum, Kanban y ofrece métricas detalladas.',
     },
     {
-      termino: '<i>Fintech</i>',
+      termino: 'Kanban',
       significado:
-        'Empresas que utilizan la tecnología para ofrecer servicios financieros innovadores.',
+        'Método de gestión visual de tareas que promueve el flujo continuo y la mejora gradual.',
     },
     {
-      termino: 'Gestión de la innovación',
+      termino: 'Prioridad',
       significado:
-        'Proceso sistemático que incluye la planificación estratégica, la asignación de recursos, el desarrollo de capacidades organizacionales y la evaluación de resultados.',
+        'Nivel de importancia asignado a cada tarea o historia en el Product Backlog.',
     },
     {
-      termino: '<i>Healthtech</i>',
+      termino: 'Product Backlog',
       significado:
-        'Empresas que utilizan la tecnología para ofrecer soluciones en el sector de la salud.',
+        'Lista ordenada y priorizada de requisitos o funcionalidades deseadas para el producto.',
     },
     {
-      termino: 'Impresión 3D (manufactura aditiva)',
+      termino: 'Product Owner',
       significado:
-        'Tecnología que permite la creación de objetos tridimensionales a partir de un modelo digital.',
+        'Rol responsable de maximizar el valor del producto, gestionando y priorizando el Product Backlog.',
     },
     {
-      termino: 'Incubadoras',
+      termino: 'Retrospectiva',
       significado:
-        'Organizaciones que apoyan el desarrollo de nuevas empresas, proporcionando servicios y recursos en las etapas iniciales.',
+        'Ceremonia Scrum al final del Sprint donde el equipo reflexiona sobre su trabajo y propone mejoras.',
     },
     {
-      termino: 'Industria 4.0',
+      termino: 'Scrum',
       significado:
-        'Término que se refiere a la cuarta revolución industrial, caracterizada por la integración de tecnologías digitales avanzadas en los procesos industriales.',
+        'Marco ágil de trabajo que organiza el desarrollo de productos en ciclos cortos e iterativos llamados Sprints.',
     },
     {
-      termino: 'iNNpulsa',
+      termino: 'Scrum Master',
       significado:
-        'Unidad de Gestión de Crecimiento Empresarial del Gobierno de Colombia.',
+        'Facilitador del equipo Scrum que asegura el cumplimiento del marco ágil y elimina obstáculos.',
     },
     {
-      termino: 'Inteligencia competitiva',
+      termino: 'Sprint',
       significado:
-        'Disciplina que implica un proceso sistemático y ético de recolección, análisis y aplicación de información sobre el entorno competitivo, para tomar decisiones más informadas y estratégicas.',
+        'Iteración de tiempo fijo, generalmente de 1 a 4 semanas, donde se entrega un incremento del producto.',
     },
     {
-      termino: 'IoT (<i>Internet of Things</i>)',
+      termino: 'Sprint Backlog',
       significado:
-        'Redes de dispositivos conectados que pueden recopilar y intercambiar datos.',
+        'Conjunto de tareas seleccionadas del Product Backlog que se desarrollan durante un Sprint.',
     },
     {
-      termino: 'Ley 1286',
+      termino: 'Trello',
       significado:
-        'Ley que fortalece el Sistema Nacional de Ciencia, Tecnología e Innovación en Colombia.',
+        'Herramienta de gestión visual basada en tableros, listas y tarjetas, útil para equipos ágiles.',
     },
     {
-      termino: 'Minciencias',
+      termino: 'Velocidad (Velocity)',
       significado:
-        'Ministerio de Ciencia, Tecnología e Innovación de Colombia.',
+        'Métrica que indica la cantidad de trabajo completado por el equipo en un Sprint.',
     },
     {
-      termino: 'MinTIC',
+      termino: 'Workflow',
       significado:
-        'Ministerio de Tecnologías de la Información y la Comunicación de Colombia.',
-    },
-    {
-      termino: 'Modelos de negocio innovadores',
-      significado:
-        'Formas revolucionarias de crear, entregar y capturar valor que responden a las nuevas necesidades del mercado y aprovechan las oportunidades emergentes.',
-    },
-    {
-      termino: 'OTRI',
-      significado: 'Oficinas de Transferencia de Resultados de Investigación.',
-    },
-    {
-      termino: '<i>RoadMap</i> Tecnológico',
-      significado:
-        'Herramienta que permite visualizar y planificar la evolución tecnológica de una organización o sector a lo largo del tiempo, alineando los objetivos estratégicos con las capacidades tecnológicas.',
-    },
-    {
-      termino: 'SENA',
-      significado: 'Servicio Nacional de Aprendizaje de Colombia.',
-    },
-    {
-      termino: 'Servitización',
-      significado:
-        'Modelo de negocio en el que las empresas pasan de vender productos a ofrecer soluciones integrales, basadas en resultados.',
-    },
-    {
-      termino: '<i>Startups</i>',
-      significado:
-        'Empresas emergentes, generalmente de base tecnológica, que buscan desarrollar un modelo de negocio escalable e innovador.',
-    },
-    {
-      termino: 'Vigilancia tecnológica',
-      significado:
-        'Proceso sistemático y organizado que permite captar, analizar y utilizar información sobre los avances tecnológicos en un área de interés, para identificar oportunidades y amenazas.',
+        'Flujo de trabajo que define los estados por los que pasa una tarea desde su inicio hasta su cierre.',
     },
   ],
-  complementario: [],
 }

@@ -1,28 +1,5 @@
-
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
-@keyframes float1
-  0%
-    transform: translateY(20px)
-
-  100%
-    transform: translateY(0px)
-
 .container.tarjeta
   overflow-y: hidden
-
-.banner-interno__fondo
-  background-color: $color-banner-interno-fondo !important
 
 .home-main-title
   font-size: 18px
@@ -37,99 +14,47 @@
 
 .brounded-sm
   border-radius: 8px !important
-// **********************************************************************
+
 .bg-color
   &-1
-    background-color: #CFF7E4 
+    background-color: #CDD9F7
   &-2
-    background-color: #F5E9FE
+    background-color: #FCEEB5
   &-3
-    background-color: #E7EFF8 
+    background-color: #5C2C88
   &-4
-    background-color: #E2E9F3
+    background-color: #B6FBF3
   &-5
-    background-color: $color-primario
+    background-color: #062678
   &-6
-    background-color: $color-acento-contenido 
+    background-color: #EDDBFD
   &-7
-    background-color: $color-secundario
-  &-8
-    background-color: #D6F5FA
-  &-9
-    background-color: #C2F1F8
-  &-10
-    background-color: #A0F0CB
-  &-11
-    background-color: #EDF3FC
-  &-12
-    background-color: #ECD4FE
-  &-13
-    background-color: #5A1A8A
-  &-14
-    background-color: #15DA7E
-  &-15
-    background-color: #A530FE
-  &-16
-    background-color: #3AD1E9
-  &-17
-    background-color: #B2CDEB
-  &-18
-    background-color: #EAF2FB
-  &-19
-    background-color: #E3BFFE
+    background-color: #FFEBD0
+  &-info
+    background-color: #4214AE
   &-sintesis
     background-color: #F9F9F9
   &-white
     background-color: #fff
-.bg-fondo
-  &-1
-    background-image: url("../assets/bg/bg1.png") !important
-    background-position: center
-  &-2
-    background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
-  &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
-    background-position: bottom
-  &-3
-    background-image: url("../assets/bg/3.svg") !important
-    background-position: center
-  &-4
-    background-image: url("../assets/bg/4.svg") !important
-    background-position: center
-  &-5
-    background-image: url("../assets/bg/5.svg") !important
-    background-position: top
-  &-6
-    background-image: url("../assets/curso/intro/1.svg") !important
-    background-position: center
-    @media screen and (max-width: $bp-max-sm)
-      background-image: url("../assets/curso/intro/2.svg") !important
-  &-7
-    background-image: url("../assets/bg/blue-up.svg") !important
-    background-position: center
-  &-8
-    background-image: url("../assets/bg/purple-up.svg") !important
-    background-position: center
-  &-9
-    background-image: url("../assets/bg/purple-icons.svg") !important
-    background-position: center
-  &-10
-    background-image: url("../assets/bg/green-icons.svg") !important
-    background-position: center
-  &-11
-    background-image: url("../assets/bg/blue-down.svg") !important
-    background-position: center
-    
-// **********************************************************************
 
-.border-top.color-primario
-  border-top: 5px solid $color-primario !important
-.br-15
-  border-radius: 15px !important
-.mb-cus
-  @media screen and (max-width: $bp-max-sm)
-    margin-bottom: 1.5rem !important
+.bg-gradiente
+  &-1
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(229, 235, 251, 1) 41%, rgba(229, 235, 251, 1) 60%, rgba(255, 255, 255, 1) 100%)
+  &-2
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(246, 236, 254, 1) 41%, rgba(246, 236, 254, 1) 60%, rgba(255, 255, 255, 1) 100%)
+  &-3
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(254, 249, 229, 1) 41%, rgba(254, 249, 229, 1) 60%, rgba(255, 255, 255, 1) 100%)
+
+
+
+.border-top
+  &.color-primario
+    border-top: 5px solid $color-primario !important
+  &.color-secundario
+    border-top: 5px solid $color-secundario !important
+  &.color-terciario
+    border-top: 5px solid $color-terciario !important
+
 // Full Width Background
 .bg-full-width
   background-size: cover
@@ -140,16 +65,16 @@
     padding-left: 1.5rem
     padding-right: 1.5rem
 
-.bg-full-width-2
-  background-size: contain
-  background-repeat: no-repeat
-  background-position: top
-  margin-inline: -3.3rem
-  @media screen and (max-width: $bp-max-sm)
-    padding-left: 1.5rem
-    padding-right: 1.5rem
-    background-size: cover
-
+.bg-fondo
+  &-1
+    background-image: url("../assets/bg/bg1.png") !important
+    background-position: top
+  &-2
+    // background-image: url("../assets/bg/bg2.png") !important
+    background-position: bottom
+  &-slider
+    background-image: url("../assets/bg/bg-slider.svg") !important
+    background-position: bottom
 
 // Variables
 $custom-card-border-radius: 0px
@@ -183,19 +108,21 @@ $custom-card-img-height: 322px
   &:hover
     transform: scale(1.01)
   &__image
-    height: 268px
-    object-fit: cove
+    height: 253px
+    object-fit: cover
+
 
 .acordion__header
-  background-color: lighten($color-terciario, 24%) !important
+  background-color: #FCEEB5 !important
 
 .acordion__header--active
-  background-color: $color-terciario !important
+  background-color: #F6C810 !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-terciario, 25%) !important
+  background-color: #FEF9E5 !important
+
 
 .anexo__texto
   p, strong
@@ -211,16 +138,28 @@ $custom-card-img-height: 322px
   i
     color: $color-primario !important
 
+
+.bg-ppal-claro
+  background-color: #F7F4ED
+.bg-ppal-azul
+  background-color: #E5F0F6
+.bg-ppal-azul-oscuro
+  background-color: #D9EEFD
+.bg-ppal-azul-primary
+  background-color: #1172B3
+.bg-red-claro
+  background-color: #FCDFDB !important
+
+
 .box-shadow
   box-shadow: 0 4px 8px rgba(0,0,0,0.1)
   border: 2px solid rgba(0,0,0,0.1)
 
-.shadow
-  &-soft
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+.shadow-soft
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
 
 .tabs-content
-  background-color: #FDF9F3
+  background-color: #F4F4F4
 
 .material-complementario
   p,a
@@ -230,7 +169,7 @@ $custom-card-img-height: 322px
     color: $color-sistema-texto
 
 .img-infografica
-  background-color: transparent !important
+  background-color: transparent
 
 .img-infografica__item, .img-infografica-b__item
   width: 48px !important
@@ -240,19 +179,17 @@ $custom-card-img-height: 322px
 
 .img-infografica__item__dot:before, .img-infografica-b__item__dot:before
   opacity: 1
-  border: 0px solid #FEFAF3
+  border: 2px solid #FEFAF3
   background-color: #F8BC17
 
 .img-infografica__card, .img-infografica-b__card
-  width: 450px !important
+  width: 350px !important
   
 .img-infografica__item__numero
   font-weight: 900
 
-
-
-.color-terciario .lista-ol--cuadro__vineta
-  background-color: #b2cdeb !important
+.lista-ol--cuadro__vineta
+  background-color: $color-secundario
   color: #000
   min-width: 32px
   min-width: 28px
@@ -260,64 +197,52 @@ $custom-card-img-height: 322px
 
   span
     font-size: 0.85em
-i.fas.fa-quote-left
-  color: #A530FE !important
-.tabs-b.color-acento-contenido .tabs-b__tab--active
-  border-top: 0 !important
-  border-bottom: 5px solid #a530fe
-.hover
-  transition: background-color .3s ease-in-out
-  &:hover
-    background-color: #5a1a8a
-    h4, p 
-      color: white
-.fa-angle-left::before
-  content: url(../assets/curso/temas/flecha.svg)
-.bg-slyder
-  background-image: url(../assets/curso/temas/bg-slyder.png)
-  background-position: 0 0
-  background-repeat: no-repeat
-  background-size: cover
 
-/*COMPONENTS STYLES*/
-.iniciar-btn-container .icon
-  background-color: #0B7744 !important
-.lista-ol--cuadro__vineta.color-acento-contenido
-  background-color: $color-acento-contenido !important
-  color: #fff !important
+.large
+  .linea-tiempo-d__item__content__title
+    padding: 28px
+    border-radius: 5px 5px 0px 0px
+    background-color: lighten($color-primario, 30%)
+  .linea-tiempo-d__item__content__title.active
+    background-color: $color-primario !important
+  .linea-tiempo-d__item__content__slot
+    border-radius: 0px 0px 5px 5px
+    background-color: lighten($color-primario, 37%) !important
+  .linea-tiempo-d__item__number
+    background-color: lighten($color-primario, 30%)
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: $color-primario !important
+  .linea-tiempo-d__item__dots:after
+    border-left: 0px
+  .fa-angle-up, .fa-angle-down
+    display: block
 
-.card-color
-  @media screen and (max-width: $bp-max-sm)
-    margin-bottom: 1.5rem !important
-  &__title
-    border-radius: 15px 15px 0 0 !important
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important
-  &__text
-    border-radius: 0 0 15px 15px !important
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important
-
-.slyder-f__btn i
-  background-color: $color-acento-contenido !important
-.linea-tiempo-d__item__content__title.active,
-.linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-    background-color: $color-acento-contenido !important
-.mb-cus
-  @media screen and (max-width: $bp-max-md)
-    margin-bottom: 1.5rem !important
-.ctn-actividad
-  background-color: #ebf1f5 !important
-  border-top: 5px solid #f5c145 !important
-  margin-top: 2rem
-.material-complem
+.border-top.color-primario
+  border-top: 5px solid $color-primario !important
+  
+.material-complementario
   p,a
     font-size: 1rem !important
   a
     text-decoration: none
     color: $color-sistema-texto
-.border-top
-  &.color-primario
-    border-top: 5px solid $color-primario !important
-  &.color-secundario
-    border-top: 5px solid $color-secundario !important
-  &.color-terciario
-    border-top: 5px solid $color-terciario !important
+
+
+
+.lista-ul--color li > i:first-of-type
+  color: #111e61 !important
+
+.lista-ul--color.color-dark li > i:first-of-type
+  color: #111e61 !important
+          
+
+th.bg-color-tabla
+  background-color: #5C2C88 !important
+  color: #fff !important
+
+
+.bordes
+  border: 1px solid lightgray !important
+
+.bg-color-actividad
+  background-color: #EBF1F5

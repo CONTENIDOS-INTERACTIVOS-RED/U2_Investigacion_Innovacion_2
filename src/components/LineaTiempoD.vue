@@ -14,9 +14,9 @@
           .indicador__container(v-if="mostrarIndicador && index === 1")
             .indicador--click
           span(v-html="item.numero")
-        //- .linea-tiempo-d__item__dots(
-        //-   v-if="index < elements.length -1"
-        //- )
+        .linea-tiempo-d__item__dots(
+          v-if="index < elements.length -1"
+        )
   
       .col(:class="{'mb-4' : index < elements.length -1}")
         .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
@@ -28,7 +28,6 @@
             span(v-html="item.titulo")
             i.fas.fa-angle-up(v-if="selected === item.id")
             i.fas.fa-angle-down(v-else)
-            
           .linea-tiempo-d__item__content__slot(
             :style="{ height: rendered && selected === item.id ? getActiveHeight(item.id) : 0 } "
           )
@@ -53,27 +52,43 @@ export default {
 </script>
 
 <style lang="sass">
-
+.large
+  .linea-tiempo-d__item__content__title
+    padding: 28px
+    border-radius: 5px 5px 0px 0px
+    background-color: lighten($color-primario, 30%)
+  .linea-tiempo-d__item__content__title.active
+    background-color: $color-primario !important
+  .linea-tiempo-d__item__content__slot
+    border-radius: 0px 0px 5px 5px
+    background-color: lighten($color-primario, 37%) !important
+  .linea-tiempo-d__item__number
+    background-color: lighten($color-primario, 30%)
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+    background-color: $color-primario !important
+  .linea-tiempo-d__item__dots:after
+    border-left: 0px
+  .fa-angle-up, .fa-angle-down
+    display: block
 
 // DEFAULT
 .linea-tiempo-d__item__content__title
   padding: 12px 26px
   border-radius: 5px 5px 0px 0px
-  background-color: #E3BFFE
+  background-color: #FAD3FC
 .linea-tiempo-d__item__content__title.active
-  background-color: #a530fe
-  color: white
+  background-color: #FDEFFE
 .linea-tiempo-d__item__content__slot
   border-radius: 0px 0px 5px 5px
-  background-color: #E3BFFE
+  background-color: #FDEFFE
 .linea-tiempo-d__item__number
-  background-color: #E3BFFE
+  background-color: #FAD3FC
 .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: #a530fe !important
-  span
-    color: white
+  background-color: #FDEFFE !important
 .linea-tiempo-d__item__dots:after
   border-left: 0px
 .linea-tiempo-d__item__dots:after
   border-left: 5px dotted #D2E1F1
+.fa-angle-up, .fa-angle-down
+  display: none
 </style>

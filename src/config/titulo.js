@@ -1,1 +1,1 @@
-module.exports = 'Ruta de innovación'
+module.exports = 'CIRED'

@@ -1,498 +1,199 @@
 <template lang="pug">
-.curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Gestión de la innovación'")
-  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden
-    .bg-color-9.mb-5(data-aos="fade-up")
-      .row.justify-content-center.align-items-center
-        .col-lg
-          .p-4
-            p.mb-0 La gestión de la innovación en Colombia, presenta un ecosistema dinámico que impulsa la competitividad y el desarrollo sostenible en un entorno globalizado. Este sistema integra actores claves, como entidades gubernamentales, empresas privadas, universidades y centros de investigación, quienes trabajan conjuntamente, para fomentar la innovación a través de políticas públicas, incentivos fiscales y programas de apoyo.
-        .col-lg-auto.d-none.d-lg-block
-          img(src='@/assets/curso/t1/1.png', alt='')
-
-    .row.justify-content-center.mb-5(data-aos="fade-up")
-      .col-sm-12.col-lg-4.mb-lg-0.mb-3
-        .custom-image-card.h-100.br-15
-          img.custom-image-card__image.d-none.d-lg-block(src='@/assets/curso/t1/2.png' alt='')
-          .custom-image-card__text.p-4
-            h4.mb-2.text-center Marco normativo
-            p.mb-0.text-center Basado en directrices como el CONPES 4069 y la Ley 1286, que fortalecen el Sistema Nacional de Ciencia, Tecnología e Innovación. 
-            p.mb-0.text-center #[b Ejemplo:] permiten diseñar estrategias alineadas con prioridades nacionales, como proyectos en agroindustria.
-      .col-sm-12.col-lg-4.mb-lg-0.mb-3
-        .custom-image-card.h-100.br-15
-          img.custom-image-card__image.d-none.d-lg-block(src='@/assets/curso/t1/3.png' alt='')
-          .custom-image-card__text.p-4
-            h4.mb-2.text-center Sectores innovadores
-            p.mb-0.text-center Sectores claves, como tecnológico, agroindustrial y de servicios, adoptan tecnologías y modelos de negocio innovadores. 
-            p.mb-0.text-center #[b Ejemplo:] Tecnologías 4.0 en agricultura y transformación digital en servicios financieros.
-      .col-sm-12.col-lg-4.mb-lg-0.mb-3
-        .custom-image-card.h-100.br-15
-          img.custom-image-card__image.d-none.d-lg-block(src='@/assets/curso/t1/4.png' alt='')
-          .custom-image-card__text.p-4
-            h4.mb-2.text-center Herramientas de gestión
-            p.mb-0.text-center Metodologías ágiles y herramientas como incubadoras y aceleradoras, para fomentar la innovación empresarial. 
-            p.mb-0.text-center #[b Ejemplo:] #[i Startups] en #[i fintech], desarrollan soluciones tecnológicas apoyadas por incubadoras.
-
-    .bg-full-width.bg-fondo-7.mb-5(data-aos="fade-up")
-      .px-4.px-md-5.pb-md-3
-        h2.mb-3 Proceso de gestión de la innovación
-        p.mb-5.fw-bold La gestión de la innovación en Colombia incluye etapas sistemáticas como:
-        .row.justify-content-center.mb-5
-          .col-sm-12.col-lg-3
-            .card-color.h-100
-              .card-color__title.bg-color-14.p-3
-                h4.mb-0.text-center Planificación estratégica
-              .card-color__text.bg-color-1.p-3
-                p.mb-0.text-center Identificación de oportunidades y definición de objetivos.
-        
-          .col-sm-12.col-lg-3
-            .card-color.h-100
-              .card-color__title.bg-color-15.p-3
-                h4.mb-0.text-center.text-white Asignación de recursos 
-              .card-color__text.bg-color-12.p-3
-                p.mb-0.text-center Destinación de capital humano, financiero y tecnológico.
-
+  .curso-main-container.pb-3
+    BannerInterno(:subTitulo="'1. Roles en Scrum'")
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
       
-          .col-sm-12.col-lg-3
-            .card-color.h-100
-              .card-color__title.bg-color-16.p-3
-                h4.mb-0.text-center Desarrollo de capacidades
-              .card-color__text.bg-color-8.p-3
-                p.mb-0.text-center Creación de habilidades organizacionales y culturales.
+      // Bloque: texto-imagen 8:4
+      .row.mb-5
+        .col-lg-8
+          p(data-aos="fade-left") En el núcleo de Scrum, se encuentran tres roles fundamentales: el #[em Product Owner], el #[em Scrum Master] y el Equipo de Desarrollo. Estos no son simplemente cargos administrativos, sino roles bien definidos que permiten la autogestión, colaboración constante y entrega continua de valor. Entenderlos a profundidad es esencial para cualquier equipo que busque implementar metodologías ágiles de manera efectiva y sostenible (Heras del Dedo y Álvarez García, 2017).
 
-        
-          .col-sm-12.col-lg-3
-            .card-color.h-100
-              .card-color__title.bg-color-17.p-3
-                h4.mb-0.text-center Evaluación de resultados
-              .card-color__text.bg-color-3.p-3
-                p.mb-0.text-center Medición del impacto en productividad y competitividad.
+        .col-lg-4.d-none.d-sm-block
+          figure
+            img(src="@/assets/curso/tema1/1.svg", data-aos="zoom-in").mb-4.mb-lg-0
 
-        .row.justify-content-center.mb-5
-          .col-sm-12.col-lg-4.d-none.d-lg-block
-            img(src='@/assets/curso/t1/5.svg', alt='')
-          .col-sm-12.col-lg-8
-            h2.mb-3 Avances y retos
-            p.mb-5 Según el Observatorio Colombiano de Ciencia y Tecnología (2023), la inversión en innovación ha crecido constantemente, aunque aún está por debajo de otros países de la región. Germán García et al. (2022), señalan la necesidad de un enfoque sistémico que integre tecnología, organización y cultura. López Cantos (2018), subraya la importancia de fortalecer capacidades internas y redes de colaboración.
-            .bg-color-white.shadow-soft.mb-5
-              .px-5.py-4
-                .row.justify-content-around.align-items-center
-                  .col-md-auto.d-none.d-lg-block
-                      img(src="@/assets/template/bg-icono-link.svg", style="width: 70px")
-                  .col
-                    .row.justify-content-between.align-items-center
-                        .col.mb-3.mb-sm-0
-                          h3.mb-1 Portal oficial de Colombia #[i Fintech]
-                          p.mb-0 Para ampliar los conocimientos sobre investigación científica, se recomienda consultar: Colombia #[i Fintech]. (s.f.). Portal oficial de Colombia #[i Fintech]. 
-                        .col-sm-auto
-                          a.boton.color-acento-botones(href='https://colombiafintech.co/' target='_blank')
-                           span Ir al sitio
-                           i.fas.fa-arrow-right
+      // Bloque: infografia-1
+      .bg-full-width.bg-color-info.mb-5
+        .px-4.px-md-5.pt-5
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-12
+              ImagenInfografica.color-secundario
+                template(v-slot:imagen)
+                  figure
+                    img(src='@/assets/curso/tema1/infografia1.svg', alt='', style="width: 100%;").mx-auto
 
+                .bg-color-white.box-shadow.p-3(x="25%" y="55%" numero="+")
+                  h5 Scrum Master
+                  p - Apoya en la adopción del marco de referencia.
+                  p - Hace de coach al Product Owner.
+                  p - Establece acuerdos y prepara el entorno, para adoptar prácticas ágiles.
 
+                .bg-color-white.box-shadow.p-3(x="66%" y="25%" numero="+")
+                  h5 Product Owner
+                  p - Define la visión del negocio.
+                  p - Ayuda a crear el acta constitutiva del proyecto y su presupuesto.
 
-    #t_1_1.titulo-segundo(data-aos="fade-up")
-      h2 #[span 1.1] Ecosistema de innovación colombiano
-    p.mb-4(data-aos="fade-up") El ecosistema de innovación en Colombia, se define como una red integrada por actores, instituciones y relaciones que trabajan en conjunto, para impulsar el desarrollo tecnológico y la innovación. A lo largo de las últimas décadas, este ecosistema ha evolucionado de manera significativa, adaptándose a las dinámicas globales y locales.
-    .bg-full-width.bg-fondo-8.mb-0(data-aos="fade-up")
-      .p-5
-        .row.justify-content-center.mb-0
-          .col-11.col-md-8.col-xl-7
-            SlyderF(columnas="col-12 col-lg-6")
-              .row.py-4.px-3.h-100
-                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
-                  .row.justify-content-center
-                    .col-6.col-md-4.mb-4
-                      img(src='@/assets/curso/t1/7.svg')
-                  h4.text-center Universidades
-                  p.mb-0.text-center Fomentan la investigación y formación de talento en innovación.
+                .bg-color-white.box-shadow.p-3(x="63.5%" y="66%" numero="+")
+                  h5 Development Team
+                  p - Se empieza a visualizar y negociar su composición.
+                  p - Experto para desarrollar el producto.
 
-              .row.py-4.px-3.h-100
-                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
-                  .row.justify-content-center
-                    .col-6.col-md-4.mb-4
-                      img(src='@/assets/curso/t1/8.svg')
-                  h4.text-center Centros de investigación
-                  p.mb-0.text-center Generan conocimiento y desarrollan soluciones tecnológicas.
+      // Bloque: titulo-segundo
+      #t_1_1.titulo-segundo(data-aos="flip-up")
+        h2 #[span 1.1] Funciones del Product Owner
 
-              .row.py-4.px-3.h-100
-                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
-                  .row.justify-content-center
-                    .col-6.col-md-4.mb-4
-                      img(src='@/assets/curso/t1/9.svg')
-                  h4.text-center Empresas y #[i startups]
-                  p.mb-0.text-center Implementan innovaciones para responder a desafíos del mercado.
+      p(data-aos="fade-left").mb-4 El #[em Product Owner] (PO) representa la voz del cliente y del negocio dentro del equipo Scrum. Es quien posee la responsabilidad final sobre el producto, asegurando que cada funcionalidad desarrollada responda a una necesidad real del usuario o del mercado. Su papel es crítico, dado que una mala priorización, puede llevar al desarrollo de funcionalidades inútiles o al uso ineficiente de los recursos del equipo.
 
-              .row.py-4.px-3.h-100
-                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
-                  .row.justify-content-center
-                    .col-6.col-md-4.mb-4
-                      img(src='@/assets/curso/t1/10.svg')
-                  h4.text-center Entidades gubernamentales
-                  p.mb-0.text-center Diseñan políticas y financian proyectos de innovación.
+      p(data-aos="fade-left").mb-5 Conozcamos sus funciones:
 
-              .row.py-4.px-3.h-100
-                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
-                  .row.justify-content-center
-                    .col-6.col-md-4.mb-4
-                      img(src='@/assets/curso/t1/11.svg')
-                  h4.text-center Incubadoras y aceleradoras
-                  p.mb-0.text-center Apoyan el crecimiento y consolidación de empresas emergentes.
+      // Bloque: slyder-a
+      .bg-full-width.bg-fondo-slider.mb-0
+        .p-4.p-md-5
+          SlyderA(tipo="b").bg-white
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-lg-2
+                figure
+                  img(src="@/assets/curso/tema1/2.png")
+              .col-lg-7.order-lg-1
+                h3 Gestión del #[em Product Backlog]
+                p El Product Owner crea y mantiene actualizado el Product Backlog, una lista priorizada de funcionalidades, requisitos y mejoras. No se trata simplemente de listar tareas, sino de articular la estrategia del producto en unidades funcionales de trabajo. Cada ítem debe tener un propósito claro y estar valorado en función de su impacto y complejidad.
 
-              .row.py-4.px-3.h-100
-                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
-                  .row.justify-content-center
-                    .col-6.col-md-4.mb-4
-                      img(src='@/assets/curso/t1/12.svg')
-                  h4.text-center Fondos de inversión
-                  p.mb-0.text-center Proveen financiamiento para proyectos tecnológicos e innovadores.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-lg-2
+                figure
+                  img(src="@/assets/curso/tema1/3.png")
+              .col-lg-7.order-lg-1
+                h3 Maximización del valor del producto
+                p La principal responsabilidad del PO, es asegurar que el equipo trabaje en lo más valioso en cada momento. Esto se logra mediante el refinamiento continuo del backlog y el análisis de métricas como ROI, satisfacción del cliente o time to market. En contextos de alta incertidumbre, como startups tecnológicas, esta función adquiere aún más importancia.
 
-          .col-sm-12.col-lg-4.pe-xl-8.d-none.d-lg-block
-            figure.mb-0
-              img(src='@/assets/curso/t1/6.png')
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-lg-2
+                figure
+                  img(src="@/assets/curso/tema1/4.png")
+              .col-lg-7.order-lg-1
+                h3 Colaboración con los #[em stakeholders]
+                p El PO debe alinear continuamente las expectativas del cliente, los objetivos del negocio y la capacidad técnica del equipo. Actúa como un puente estratégico que traduce la visión del negocio en especificaciones que el equipo pueda construir, sin perder de vista los intereses de los usuarios finales.
 
-    h2.mb-3(data-aos="fade-up") Políticas públicas y regulación
-    .bg-full-width.bg-color-17.mb-0(data-aos="fade-up")
-      .px-5.py-4
-        p.mb-0 El liderazgo de Minciencias se complementa con las iniciativas del MinTIC y el Ministerio de Industria y Comercio, que desarrollan políticas e incentivos para fomentar la innovación. Estas acciones buscan consolidar un marco normativo y financiero, que impulse la investigación y el desarrollo, en sectores estratégicos de la economía.
-    .bg-full-width.bg-fondo-9.mb-5(data-aos="fade-up")
-      .px-5.pt-4.mb-0
-        .row.justify-content-center.mb-0.align-items-center
-          .col-sm-12.col-lg-8.mb-0
-              h4 Casos de éxito
-              p.mb-0 Ejemplos como Rappi, Platzi y Tpaga, reflejan el impacto positivo del ecosistema. Estas empresas han aprovechado los programas de aceleración, financiamiento y mentorías, ofrecidos por incubadoras y fondos de inversión, para escalar sus operaciones y consolidarse en mercados nacionales e internacionales.
-          .col-sm-12.col-lg-4.d-none.d-lg-block.mb-0
-            img.mb-0(src='@/assets/curso/t1/13.svg', alt='')
-    h2.mb-3 Colaboración y aprendizaje colectivo
-    .row.justify-content-center.mb-5(data-aos="fade-up")
-          .col-sm-12.col-lg-4.d-none.d-lg-block
-            img(src='@/assets/curso/t1/14.png', alt='')
-          .col-sm-12.col-lg-8
-            p.mb-3 Perdomo Charry (2020) destaca que la interacción entre los actores del ecosistema ha facilitado la creación de redes de colaboración, permitiendo desarrollar soluciones innovadoras para desafíos locales y regionales. Este enfoque colaborativo, ha generado valor compartido, fortaleciendo la capacidad de innovación en el país.
-            .bg-color-white.shadow-soft.mb-0
-              .px-5.py-4
-                .row.justify-content-around.align-items-center
-                  .col-md-auto.d-none.d-lg-block
-                      img(src="@/assets/template/bg-icono-link.svg", style="width: 70px")
-                  .col
-                    .row.justify-content-between.align-items-center
-                        .col.mb-3.mb-sm-0
-                          h3.mb-1 Investigación científica
-                          p.mb-0 Para ampliar los conocimientos sobre investigación científica, se sugiere consultar el siguiente recurso:
-                          p.mb-0 Rappi. (s.f.). Portal oficial de Rappi Colombia. 
-                        .col-sm-auto
-                          a.boton.color-acento-botones(href='https://www.rappi.com.co/' target='_blank')
-                           span Ir al sitio
-                           i.fas.fa-arrow-right
-
-
-    h2.mb-3(data-aos="fade-up") Dinámica de innovación
-    .row.justify-content-center.mb-5(data-aos="fade-up")
-      .col-sm-12.col-lg-8
-        .p-4.bg-color-1.mb-0
+      // Bloque: bg-full-icono-texto
+      .bg-full-width.bg-color-3.mb-5.text-white
+        .px-4.px-md-5.py-4
           .row.align-items-center
-            .col-lg-auto.d-none.d-lg-block
-              img(src='@/assets/curso/t1/15.svg', style='max-width: 90px').mx-auto
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/5.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 Avanzando hacia la comprensión de la innovación sectorial, se reconoce cómo las dinámicas de innovación moldean y transforman distintos sectores económicos y sociales. Cada sector presenta sus particularidades y ritmos de innovación, adaptándose a necesidades específicas y contextos únicos.
-      .col-sm-12.col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/t1/16.png', alt='')
-    .bg-color-18.mb-5(data-aos="fade-up")
-      .p-5
-        ImagenInfografica.color-secundario.mb-0
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/t1/17.svg')
-          .tarjeta.bg-white.p-3(x="17.7%" y="88.5%" numero="+")
-            .h5.mb-2 Agropecuario
-            p Se centra en la optimización de procesos productivos y adopción de tecnologías como riego inteligente, uso de drones y desarrollo de variedades resistentes a plagas. Estas iniciativas, incrementan la productividad y favorecen la sostenibilidad.
+              p.mb-0 #[strong Ejemplo aplicado.] Una empresa de e-commerce quiere desarrollar una nueva funcionalidad de "recomendaciones personalizadas". El Product Owner evalúa que, aunque esta función podría mejorar la retención, su desarrollo inicial sería costoso. Decide priorizar primero mejoras en el tiempo de carga del sitio, basándose en métricas reales de abandono. Esta decisión permite maximizar el valor con recursos limitados, demostrando la importancia de un PO estratégico.
 
-          .tarjeta.bg-white.p-3(x="36.2%" y="10.3%" numero="+")
-            .h5.mb-2 Industrial
-            p Los principales motores son la automatización y la eficiencia energética, permitiendo mayor competitividad en mercados globalizados.
+      // Bloque: titulo-segundo
+      #t_1_2.titulo-segundo(data-aos="flip-up")
+        h2 #[span 1.2] Funciones del #[em Scrum Master]
 
-          .tarjeta.bg-white.p-3(x="57.8%" y="88.5%" numero="+")
-            .h5.mb-2 Tecnológico
-            p Innovación caracterizada por ciclos rápidos de desarrollo y la búsqueda constante de soluciones digitales.
-            p #[b Ejemplo:] #[i startups en fintech y edtech.]
+      p(data-aos="fade-left").mb-4 El #[em Scrum Master] (SM) no es un jefe ni un gestor de personas, sino un facilitador del proceso Scrum. Su rol es velar por la comprensión e implementación efectiva del marco de trabajo y eliminar los obstáculos que impiden el avance del equipo. Actúa como un mentor, un coach y, en muchos casos, como un protector del equipo frente a las interrupciones externas o dinámicas disfuncionales (Monte Galiano, 2016).
 
-          .tarjeta.bg-white.p-3(x="75.6%" y="10.7%" numero="+")
-            .h5.mb-2 Comercial
-            p Enfocado en la mejora de la experiencia del cliente y la optimización de canales de distribución, mediante herramientas avanzadas.
+      p(data-aos="fade-left").mb-5 Conozcamos sus funciones:
 
-          .tarjeta.bg-white.p-3(x="94.2%" y="88.5%" numero="+")
-            .h5.mb-2 Social
-            p Aborda problemáticas comunitarias y busca mejorar la calidad de vida de poblaciones vulnerables, mediante proyectos innovadores.
+      // Bloque: TabsC
+      TabsC.color-acento-contenido.mb-5
+        .tabs-content.border.px-4.p-md-5.py-3(titulo="Garantizar la adherencia al marco de Scrum" :icon="require('@/assets/bullets/icon-tab-c-1.svg')")
+          .row
+            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+              h4 Garantizar la adherencia al marco de Scrum
+              p Uno de los errores más comunes en las organizaciones es "adaptar Scrum" de forma incorrecta, eliminando eventos claves o fusionando roles. El Scrum Master debe garantizar que el equipo respete los pilares de Scrum: transparencia, inspección y adaptación, y que practique los valores de compromiso, coraje, foco, apertura y respeto.
+            .col-md-6.col-lg-5.col-xl-4.order-1
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/6.png', alt='')
 
+        .tabs-content.border.px-4.p-md-5.py-3(titulo="Fomentar la mejora continua" :icon="require('@/assets/bullets/icon-tab-c-1.svg')")
+          .row
+            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+              h4 Fomentar la mejora continua
+              p En cada iteración, el equipo debe aprender y mejorar. El SM facilita sesiones de retrospectiva, donde se analizan aciertos y errores, y se plantean mejoras concretas. Este enfoque promueve una cultura organizacional orientada al aprendizaje, una ventaja competitiva en mercados volátiles.
+            .col-md-6.col-lg-5.col-xl-4.order-1
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/7.png', alt='')
 
-    .row.justify-content-center.mb-5(data-aos="fade-up")
-      .col-sm-12.col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/t1/18.png', alt='')
-      .col-sm-12.col-lg-8
-        p.mb-3 En el caso colombiano, la evolución de estas dinámicas ha sido significativa. Programas como Colombia Científica y los Centros de Desarrollo Tecnológico Sectorial, han fomentado la colaboración entre universidades, empresas y el Estado, fortaleciendo el ecosistema de innovación. En el sector agropecuario, por ejemplo, la implementación de sistemas de riego inteligente y monitoreo con drones, ha transformado prácticas tradicionales, logrando incrementos sostenibles en la productividad.
-        .bg-color-white.shadow-soft.mb-0
-          .px-5.py-4
-            .row.justify-content-around.align-items-center
-              .col-md-auto.d-none.d-lg-block
-                  img(src="@/assets/template/bg-icono-video.svg", style="width: 70px")
-              .col
-                .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      h3.mb-1 Talleres de socialización del MECE
-                      p.mb-0 Para ampliar los conocimientos en los temas de investigación estudiados, se sugiere explorar el siguiente video:
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href='https://youtu.be/g9aQUC-Pqu4?si=iRMSDyFTyk17lRT9' target='_blank')
-                        span Ver video
-                        i.fas.fa-arrow-right
+        .tabs-content.border.px-4.p-md-5.py-3(titulo="Remoción de impedimentos" :icon="require('@/assets/bullets/icon-tab-c-1.svg')")
+          .row
+            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+              h4 Remoción de impedimentos
+              p El SM identifica y elimina todo aquello que impide al equipo alcanzar sus metas: cuellos de botella, herramientas ineficientes, conflictos internos o dependencias externas. Esta función, aunque muchas veces invisible, tiene un impacto directo en la productividad y motivación del equipo.
+            .col-md-6.col-lg-5.col-xl-4.order-1
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/8.png', alt='')
 
-    #t_1_2.titulo-segundo(data-aos="fade-up")
-      h2 #[span 1.2] Transferencia de tecnología en los sectores
-    .bg-full-width.bg-color-16.mb-0(data-aos="fade-up")
-      .px-5.py-4
-        p.mb-0.fw-bold La transferencia de tecnología, es el proceso que facilita el intercambio de conocimientos, técnicas y avances tecnológicos, entre diferentes sectores y organizaciones.
+      // Bloque: bg-full-icono-texto
+      .bg-full-width.bg-color-3.mb-5.text-white
+        .px-4.px-md-5.py-4
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema1/9.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 #[strong Ejemplo aplicado.] En un equipo de desarrollo de aplicaciones móviles, se detecta que las pruebas de calidad se realizan manualmente y consumen demasiado tiempo. El Scrum Master propone implementar herramientas de integración continua y automatización de pruebas. Esta acción reduce el tiempo de entrega y mejora la calidad, ejemplificando cómo el Scrum Master aumenta el valor sin escribir una sola línea de código.
 
-    .bg-full-width.bg-color-white.shadow-soft.mb-5(data-aos="fade-up")
-      .px-5.py-4
-        .row.justify-content-between.align-items-center
-          .col.mb-3.mb-sm-0
-            h3.mb-1 Transferencia tecnológica
-            p.mb-0 Para ampliar los conocimientos en los temas de investigación estudiados, se sugiere explorar el siguiente video:
-          .col-sm-auto
-            a.boton.color-acento-botones(href='https://youtu.be/cjAnbsyB8Ok' target='_blank')
-              span Ver video
-              i.fas.fa-arrow-right
+      // Bloque: titulo-segundo
+      #t_1_3.titulo-segundo(data-aos="flip-up")
+        h2 #[span 1.3] Interacción entre roles Scrum
 
-    #t_1_3.titulo-segundo(data-aos="fade-up")
-      h2 #[span 1.3] Entorno del negocio
-    p.mb-5(data-aos="fade-up") El entorno del negocio es un ecosistema dinámico que impacta directamente en el desarrollo y éxito de las empresas. Este entorno se compone de factores interrelacionados, que moldean tanto las oportunidades como los desafíos empresariales.
-    .bg-full-width.bg-fondo-slider.mb-0(data-aos="fade-up")
-      .p-4.p-md-5
-        SlyderA(tipo='b').bg-white
-          .row.align-items-center.p-4.p-md-5
-            .col-sm-12.col-lg-7
-              h5 Económicos
-              p Influyen en la planificación financiera a través de tasas de interés, inflación y tipo de cambio.
-            .col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/t1/19.png', alt='')
+      p(data-aos="fade-left").mb-4 El #[em Scrum Master] (SM) no es un jefe ni un gestor de personas, sino un facilitador del proceso Scrum. Su rol es velar por la comprensión e implementación efectiva del marco de trabajo y eliminar los obstáculos que impiden el avance del equipo. Actúa como un mentor, un coach y, en muchos casos, como un protector del equipo frente a las interrupciones externas o dinámicas disfuncionales (Monte Galiano, 2016).
 
-          .row.align-items-center.p-4.p-md-5
-            .col-sm-12.col-lg-7
-              h5 Políticos y legales
-              p Determinan el marco regulatorio y las políticas que afectan la operación empresarial.
-            .col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/t1/20.png', alt='')
+      p(data-aos="fade-left").mb-5 Conozcamos sus funciones:
 
-          .row.align-items-center.p-4.p-md-5
-            .col-sm-12.col-lg-7
-              h5 Sociales
-              p Cambian las preferencias y comportamientos del consumidor, exigiendo ajustes en productos y servicios.
-            .col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/t1/21.png', alt='')
+      // Bloque: acordeon-img 8:4
+      .row.align-items-start.mb-5
+        .col-lg-8
+          AcordionA(tipo="b")
+            .div(titulo="Product Owner y Equipo de Desarrollo")
+              p Esta relación debe basarse en la confianza mutua. El PO confía en que el equipo tiene la capacidad técnica para ejecutar, mientras que el equipo confía en que el PO prioriza con criterio. El diálogo entre ambos debe ser continuo: desde el refinamiento del backlog hasta la revisión de entregas.
 
-          .row.align-items-center.p-4.p-md-5
-            .col-sm-12.col-lg-7
-              h5 Tecnológicos
-              p Transforman los modelos de negocio, mediante la digitalización y la innovación.
-            .col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/t1/22.png', alt='')
+            .div(titulo="Scrum Master y Product Owner")
+              p Aunque ambos roles son complementarios, pueden surgir tensiones. Por ejemplo, el PO puede querer cambios durante el Sprint, mientras que el SM protege la estabilidad del Sprint. Estas situaciones deben resolverse desde el entendimiento de que ambos buscan lo mismo: maximizar el valor entregado.
 
-          .row.align-items-center.p-4.p-md-5
-            .col-sm-12.col-lg-7
-              h5 Ambientales
-              p Impulsan prácticas sostenibles y regulaciones relacionadas con el impacto ecológico.
-            .col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/t1/23.png', alt='')
+            .div(titulo="Scrum Master y Equipo de Desarrollo")
+              p El SM es un apoyo constante para el equipo. No dirige, sino que empodera. Brinda herramientas, fomenta la autonomía, media en conflictos y construye un entorno seguro para experimentar y aprender. Cuando esta relación es fuerte, los equipos alcanzan niveles altos de rendimiento y satisfacción.
 
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/tema1/10.png", alt="").mb-4.mb-lg-0
 
-    .bg-full-width.bg-fondo-10.mb-5(data-aos="fade-up")
-      .px-5.pt-0.mb-0
-        .row.justify-content-center.mb-0.align-items-center
-          .col-sm-12.col-lg-8.mb-0
-              p.mb-0  En Colombia, el entorno empresarial ha evolucionado significativamente, en la última década. Factores como la transformación digital, los acuerdos comerciales internacionales y el enfoque en sostenibilidad, han generado tanto oportunidades como retos. La pandemia, por ejemplo, aceleró la adopción del comercio electrónico, obligando a muchas empresas a transformar rápidamente sus modelos de negocio y reforzando la importancia de la flexibilidad estratégica.
-              p.mb-0 Un caso destacado es el del sector comercial, donde la rápida digitalización, redefinió la interacción con los consumidores, priorizando el comercio electrónico y las plataformas digitales. Esto muestra cómo el entorno del negocio, exige adaptabilidad y capacidad para anticipar cambios.
-          .col-sm-12.col-lg-4.d-none.d-lg-block.mb-0
-            img.mb-0(src='@/assets/curso/t1/24.svg', alt='')
-    .bg-full-width.bg-color-3.mb-5(data-aos="fade-up")
-      .p-5
-        .row.justify-content-center.align-items-center
-          .col-lg-5.d-none.d-lg-block
-             img(src='@/assets/curso/t1/24.png', alt='')
-          .col-lg-7
-             h2.mb-4 Tendencias globales y locales en innovación
-             p.mb-4 Se invita a explorar cómo las tendencias globales y locales en innovación están transformando los sectores productivos y sociales. Desde la adopción de tecnologías emergentes como la inteligencia artificial y la economía circular hasta iniciativas locales como ciudades inteligentes y la transformación digital de pymes en Colombia, estas tendencias redefinen la forma de crear valor.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/tendencias_globales.pdf")' target='_blank')
-               .anexo__icono(:style='{"background-color": "#FCDFDB"}')
-                  img(src='@/assets/template/icono-pdf.svg')
-               .anexo__texto
-                  p <strong>Anexo. </strong> Tendencias globales y locales en innovación
+      // Bloque: imagen-texto-iconobloque 4:8
+      .row.mb-5
+        //- .col-lg-3
+        //-   figure
+        //-     img(src="@/assets/curso/tema1/11.png", data-aos="zoom-in")
+        .col-lg
+          p(data-aos="fade-left").mb-4 #[strong Ejemplo aplicado.] Durante una retrospectiva, el equipo expresa que las historias están mal definidas y requieren múltiples aclaraciones. El Scrum Master propone incluir sesiones de refinamiento con el Product Owner antes de cada Sprint Planning. Esta decisión mejora la claridad, reduce el desperdicio y fortalece la colaboración entre roles.
 
-    #t_1_4.titulo-segundo(data-aos="fade-up")
-      h2 #[span 1.4] #[i RoadMap] tecnológico y embudo de ventas (#[i Pipeline])
-    .bg-full-width.bg-fondo-1.mb-5(data-aos="fade-up")
-      .px-5.py-4
-        .row.justify-content-center.mb-0
-            .col-sm-12.col-lg-8
-              p.mb-4 El #[i RoadMap] tecnológico es una herramienta estratégica que permite visualizar y planificar la evolución tecnológica de una organización, alineando objetivos estratégicos con capacidades tecnológicas para alcanzar metas. Este recurso integra dimensiones como mercado, producto, tecnología y recursos, estableciendo hitos y puntos críticos para la innovación. 
-              .bg-color-12.p-4
-                p.mb-0 En el contexto colombiano, sectores como el tecnológico y los clusters productivos, han adoptado esta herramienta con apoyo de instituciones como el SENA y Minciencias, fortaleciendo la competitividad global. Por ejemplo, en el sector del desarrollo de software, los #[i RoadMaps] han facilitado la planificación de productos y la anticipación de cambios tecnológicos, en mercados dinámicos.
-            .col-sm-12.col-lg-4.d-none.d-lg-block
-              img(src='@/assets/curso/t1/25.png', alt='')
-        .row.justify-content-center.mb-0
-          .col-sm-12.col-lg-3.mb-lg-0.mb-3
-            .custom-image-card.h-100.br-15
-              .custom-image-card__text.p-4
-                .row.justify-content-center.mb-4
-                  .col-sm-6.col-lg-4.d-none.d-lg-block
-                    img(src='@/assets/curso/t1/26.svg', alt='').mx-auto
-                h4.mb-2.text-center Mercado
-                p.mb-0.text-center Identifica necesidades actuales y futuras, para ajustar soluciones tecnológicas.
+          .bg-color-6.p-4(data-aos="fade-left")
+            .row.align-items-start
+              .col-lg-auto
+                img(src="@/assets/curso/tema1/12.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0 Los roles en Scrum no son jerárquicos ni rígidos. Son estructuras de colaboración dinámica que, cuando se entienden y se ejercen correctamente, transforman la manera en que se conciben y entregan productos. La claridad en las funciones, la fluidez en la interacción y el respeto por los valores ágiles constituyen la base de un equipo Scrum exitoso. Esta comprensión no solo es útil en proyectos de software, sino en cualquier entorno que demande innovación, adaptabilidad y entrega continua de valor.
 
-          .col-sm-12.col-lg-3.mb-lg-0.mb-3
-            .custom-image-card.h-100.br-15
-              .custom-image-card__text.p-4
-                .row.justify-content-center.mb-4
-                  .col-sm-6.col-lg-4.d-none.d-lg-block
-                    img(src='@/assets/curso/t1/27.svg', alt='').mx-auto
-                h4.mb-2.text-center Producto
-                p.mb-0.text-center Permite planificar la evolución de los productos, conforme a las tendencias.
-
-          .col-sm-12.col-lg-3.mb-lg-0.mb-3
-            .custom-image-card.h-100.br-15
-              .custom-image-card__text.p-4
-                .row.justify-content-center.mb-4
-                  .col-sm-6.col-lg-4.d-none.d-lg-block
-                    img(src='@/assets/curso/t1/28.svg', alt='').mx-auto
-                h4.mb-2.text-center Tecnología
-                p.mb-0.text-center Ayuda a seleccionar y desarrollar tecnologías claves para mantener la competitividad.
-
-          .col-sm-12.col-lg-3.mb-lg-0.mb-3
-            .custom-image-card.h-100.br-15
-              .custom-image-card__text.p-4
-                .row.justify-content-center.mb-4
-                  .col-sm-6.col-lg-4.d-none.d-lg-block
-                    img(src='@/assets/curso/t1/29.svg', alt='').mx-auto
-                h4.mb-2.text-center Recursos
-                p.mb-0.text-center Asegura la disponibilidad de capacidades humanas, financieras y técnicas.
-
-    .row.justify-content-center.mb-5(data-aos="fade-up")
-      .col-sm-12.col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/t1/30.png', alt='')
-      .col-sm-12.col-lg-8
-        p.mb-4 Según Martínez-Gómez (2024), el #[i RoadMap] Tecnológico, no solo es una herramienta de planificación, sino un proceso estratégico para prever cambios y alinear esfuerzos de innovación, con los objetivos organizacionales.
-        .bg-color-8.p-4
-          p.mb-0 El #[b embudo de ventas o pipeline], por su parte, es una herramienta que permite gestionar el proceso de conversión de prospectos en clientes. Este modelo estratégico describe el recorrido del cliente, desde el primer contacto hasta la compra, identificando y mejorando cada etapa del proceso comercial.
-
-    .bg-full-width.bg-color-3.mb-0(data-aos="fade-up")
-      .px-5.py-0
-        .row.justify-content-center.mb-0.align-items-center
-          .col-sm-12.col-lg-6
-            h4 Las etapas del embudo de ventas y estrategias aplicadas:
-            ol.lista-ol--cuadro.lista-ol--cuadro--separador.color-terciario
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 1
-                p.mb-0 #[b Consciencia.] Creación de contenido relevante y estrategias de alcance.
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 2
-                p.mb-0 #[b Interés.] Generación de interés mediante demostraciones de valor.
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 3
-                p.mb-0 #[b Consideración.] Resaltado de beneficios y diferenciadores del producto o servicio.
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 4
-                p.mb-0 #[b Intención.] Ofrecimiento de incentivos para avanzar hacia la compra.
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 5
-                p.mb-0 #[b Decisión.] Cierre del trato con enfoque en la satisfacción del cliente.
-          .col-sm-12.col-lg-6.d-none.d-lg-block
-            img(src='@/assets/curso/t1/31.svg', alt='')
-
-    .bg-full-width.bg-color-16.mb-0(data-aos="fade-up")
-      .px-5.py-4
-        p.mb-0 En Colombia, la transformación digital ha impulsado el uso de herramientas como CRM y #[i marketing] automatizado, mejorando el seguimiento y la personalización del pipeline. Por ejemplo, empresas de retail han adoptado estrategias omnicanal que integran puntos de contacto físicos y digitales, personalizando experiencias y mejorando tasas de conversión.
-
-    .bg-full-width.bg-color-white.shadow-soft.mb-5
-      .px-5.py-4
-        .row.justify-content-around.align-items-center
-          .col-md-auto.d-none.d-lg-block
-              img(src="@/assets/template/bg-icono-video.svg", style="width: 70px")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                h3.mb-1 Embudo de ventas
-                p.mb-0 Para ampliar los conocimientos en los temas de investigación estudiados, se sugiere explorar el siguiente video:
-              .col-sm-auto
-                a.boton.color-acento-botones(href='https://www.youtube.com/live/zXc2YwI5xmQ' target='_blank')
-                  span Ver video
-                  i.fas.fa-arrow-right
-    .bg-full-width.border-top.color-primario
-      .p-4.p-md-5
-        h2 MATERIAL COMPLEMENTARIO
-        .row.material-complem
-          .col-12.col-md-6.col-lg-7
-            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-            //- Referencia con enlace 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://repository.agrosavia.co/handle/20.500.12324/18625' target='_blank' rel='noopener noreferrer') AGROSAVIA. (2022). Estudios de vigilancia tecnológica aplicados a cadenas productivas del sector agropecuario colombiano.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://colombiafintech.co/' target='_blank' rel='noopener noreferrer') Colombia #[i Fintech]. (s.f.). Portal oficial de Colombia #[i Fintech].
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://educaedtech.com/' target='_blank' rel='noopener noreferrer') EducaEdTech. (s.f.). Portal oficial de EducaEdTech.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://healthtechcolombia.co/' target='_blank' rel='noopener noreferrer') HealthTech Colombia. (s.f.). Portal oficial de HealthTech Colombia.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://platzi.com/' target='_blank' rel='noopener noreferrer') Platzi. (s.f.). Portal oficial de Platzi.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://www.rappi.com.co/' target='_blank' rel='noopener noreferrer') Rappi. (s.f.). Portal oficial de Rappi Colombia.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://tpaga.co/' target='_blank' rel='noopener noreferrer') Tpaga. (s.f.). Portal oficial de Tpaga.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://www.derechodeautor.gov.co/es/tramites-y-servicios/capacitaciones' target='_blank' rel='noopener noreferrer') Dirección Nacional de Derechos de Autor.
-
-            //- Referencia de youtube 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
-              a(href='https://www.youtube.com/live/zXc2YwI5xmQ' target='_blank' rel='noopener noreferrer') Alta Estrategia. (2021). ¿Qué es y cómo funciona un embudo de ventas?.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
-              a(href='https://youtu.be/g9aQUC-Pqu4?si=iRMSDyFTyk17lRT9' target='_blank' rel='noopener noreferrer') Ministerio TIC Colombia. (2021). Talleres de socialización del MECE.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
-              a(href='https://youtu.be/v6HIfBbkw20?si=RnU3kvXvMg7mXQMT' target='_blank' rel='noopener noreferrer') Universidad Nacional de Colombia – Sitio Oficial. (2020). Transferencia tecnológica.
-
-          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
-            figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='')
-
+      // Bloque: material-complementario
+      .bg-full-width.border-top.color-primario
+        .p-4.p-md-5
+          h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+          .row.material-complementario
+            .col-12.col-md-6.col-lg-7
+              p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar y enriquecer su aprendizaje en los temas tratados en esta unidad.
+              
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/28993" target="_blank" rel="noopener noreferrer") Escalona, I. (2009). Planeación integral agregada e interrelación de los sistemas intermitentes con el MRP y filosofía JIT, kanban, reingeniería. El Cid Editor. 
+              
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=UjcAJ3tjg8o" target="_blank" rel="noopener noreferrer") Mujer Cronopio. (2022). AGILE MANIFESTO [1/4]. ¿Solo para ingenieros? ¡NO! [video]. YouTube.
+              
+            .col-12.col-md-6.col-lg-3.offset-lg-1
+              figure
+                img(src='@/assets/componentes/material-complementario.svg', alt='Imagen material complementario')
 
 </template>
 
 <script>
 export default {
   name: 'Tema1',
-  data: () => ({}),
-
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -501,9 +202,4 @@ export default {
 }
 </script>
 
-<style lang="sass">
-.tabs-content
-  background-color: $color-sistema-h
-.img-infografica
-  background-color: $color-adicional-1
-</style>
+<style lang="sass"></style>

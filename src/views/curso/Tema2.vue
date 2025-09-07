@@ -1,256 +1,197 @@
 <template lang="pug">
-.curso-main-container.pb-3
-  BannerInterno(:subTitulo="'2. Negocios innovadores'")
-  .container.tarjeta.tarjeta--blanca.px-4.pt-4.px-md-5.pt-md-5.pb-0.overflow-hidden
-    .row.align-items-center.mb-5(data-aos="fade-up")
-      .col-lg-auto.d-none.d-lg-block
-        img(src='@/assets/curso/t2/1.svg', style='max-width: 90px').mx-auto
-      .col-lg
-        p.mb-0 El estudio de los #[b modelos de negocio innovadores], revela formas revolucionarias de crear, entregar y capturar valor, capaces de transformar industrias completas. Estos modelos superan las estructuras tradicionales al integrar elementos disruptivos que responden a las necesidades del mercado y aprovechan oportunidades emergentes.
-    
-    .bg-full-width.bg-color-3.mb-0(data-aos="fade-up")
-      .px-5.py-0
-        .row.justify-content-center.mb-0.align-items-center
-          .col-sm-12.col-lg-6
-            h4.mt-4 Características de los modelos de negocio innovadores:
-            ol.lista-ol--cuadro.lista-ol--cuadro--separador.color-terciario
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 1
-                p.mb-0 #[b Transformación de la lógica empresarial:] redefinen la interacción con el mercado y la generación de ingresos.
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 2
-                p.mb-0 #[b Enfoque disruptivo:] incorporan plataformas digitales, economía colaborativa, suscripción, servitización o modelos circulares.
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 3
-                p.mb-0 #[b Propuestas híbridas:] combinan elementos digitales y físicos para crear experiencias únicas.
-              
-          .col-sm-12.col-lg-6.d-none.d-lg-block
-            img(src='@/assets/curso/t2/2.svg', alt='')
-    .bg-full-width.bg-color-9.mb-5(data-aos="fade-up")
-      .px-5.py-4
-        p.mb-0 En #[b Colombia], estos modelos están ganando terreno en sectores como el tecnológico, social y financiero, donde #[i startups] y empresas tradicionales, integran prácticas innovadoras para mantenerse competitivas.
-    p.mb-4.fw-bold(data-aos="fade-up") Componentes esenciales de un modelo de negocio innovador:
-    .row.justify-content-center.mb-5(data-aos="fade-up")
-      .col-sm-12.col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/t2/3.png')
-      .col-sm-12.col-lg-8
-        LineaTiempoD.color-acento-contenido.large
-          div(numero='1' titulo='Propuesta de valor')
-            p.mb-0 Solución única ofrecida al cliente
-          div(numero='2' titulo='Segmentos de clientes')
-            p.mb-0 Público objetivo claramente definido.
-          div(numero='3' titulo='Canales')
-            p.mb-0 Vías utilizadas para entregar valor al cliente.
-          div(numero='4' titulo='Relaciones con clientes')
-            p.mb-0 Estrategias para construir y mantener relaciones.
-          div(numero='5' titulo='Fuentes de ingresos')
-            p.mb-0 Formas de monetizar la propuesta de valor.
+  .curso-main-container.pb-3
+    BannerInterno(:subTitulo="'2. Ciclos de Sprint'")
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    .row.justify-content-center.mb-5(data-aos="fade-up")
-      .col-sm-12.col-lg-8
-        LineaTiempoD.color-acento-contenido.large
-          div(numero='6' titulo='Recursos claves')
-            p.mb-0 Activos necesarios para operar el modelo.
-          div(numero='7' titulo='Actividades claves')
-            p.mb-0 Procesos y tareas esenciales para crear valor.
-          div(numero='8' titulo='Alianzas estratégicas')
-            p.mb-0 Socios que fortalecen la ejecución del modelo.
-          div(numero='9' titulo='Estructura de costos')
-            p.mb-0 Modelo financiero para sostener la operación.
-      .col-sm-12.col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/t2/4.png')
-
-    .bg-full-width.bg-color-10.mb-0(data-aos="fade-up")
-      .px-5.py-4
-        .row.align-items-center
-          .col-lg-auto.d-none.d-lg-block
-            img(src='@/assets/curso/t2/5.svg', style='max-width: 90px').mx-auto
-          .col-lg
-            p.mb-0 Estos elementos permiten la creación de configuraciones únicas, generando ventajas competitivas sostenibles.
-            p.mb-0.fw-bold Los casos prácticos en Colombia, son: 
-    .bg-full-width.bg-fondo-slider.mb-5
-      .p-4.p-md-5
-        SlyderA(tipo='b').bg-white
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/t2/6.png', alt='')
-            .col-sm-12.col-lg-7
-              h5.mb-3 Sector social
-              p.mb-0 Modelos innovadores de negocio, como las empresas B y los emprendimientos sociales, combinan impacto social con sostenibilidad financiera. Por ejemplo, iniciativas que conectan comunidades rurales con mercados nacionales, mediante plataformas tecnológicas, han transformado economías locales.
-
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/t2/7.png', alt='')
-            .col-sm-12.col-lg-7
-              h5.mb-3 Sector tecnológico
-              p.mb-0 Las empresas de software como servicio (SaaS) han desarrollado modelos escalables que integran servicios en la nube con personalización, respondiendo a las necesidades específicas del mercado latinoamericano.
-
-    .bg-full-width.bg-fondo-11.mb-5(data-aos="fade-up")
-      .px-5.py-4
-        .row.justify-content-center.mb-0.align-items-center
-          .col-sm-12.col-lg-7
-            p.mb-4  Como mencionan Puello-Socarrás y Ballén Buitrago (2021), estos modelos no solo generan valor económico, sino que también abordan problemas sociales y ambientales cuando se desarrollan con un enfoque integral. Según Miranda González (2023), la auténtica innovación requiere un enfoque sistemático que combine creatividad estratégica con un conocimiento profundo de las necesidades del mercado. Estas prácticas permiten que las organizaciones se adapten y prosperen en entornos altamente competitivos y en constante transformación.
-            .bg-color-white.shadow-soft.mb-0
-              .px-5.py-4
-                .row.justify-content-around.align-items-center
-                  .col-md-auto.d-none.d-lg-block
-                      img(src="@/assets/template/bg-icono-video.svg", style="width: 70px")
-                  .col
-                    .row.justify-content-between.align-items-center
-                        .col.mb-3.mb-sm-0
-                          h3.mb-1 Modelos de Negocio Innovadores 
-                          p.mb-0 Para ampliar los conocimientos en los temas de investigación que ha estudiado, se recomienda explorar el siguiente video:
-                        .col-sm-auto
-                          a.boton.color-acento-botones(href='https://youtu.be/uWzelPlIGYs?si=HyWbzK8k7rz5oyAq' target='_blank')
-                            span Ver video
-                            i.fas.fa-arrow-right
-          .col-sm-12.col-lg-5.d-none.d-lg-block
-            img(src='@/assets/curso/t2/8.svg', alt='')
-
-
-    h2.mb-3(data-aos="fade-up") Estrategias de entrada al mercado
-    .bg-color-9.mb-5(data-aos="fade-up")
-      .row.justify-content-center.align-items-center
-        .col-lg-auto.d-none.d-lg-block
-          img(src='@/assets/curso/t2/9.png', alt='')
-        .col-lg
-          .p-4
-            p.mb-0 Las estrategias de entrada al mercado, son decisiones claves que determinan el éxito inicial y el desarrollo futuro de proyectos innovadores. Elegir una estrategia adecuada, requiere analizar el mercado objetivo, los recursos disponibles, las barreras de entrada y las capacidades organizacionales existentes, para competir de manera efectiva. Existen diferentes aproximaciones con ventajas y desafíos específicos:
-
-    .bg-full-width.bg-fondo-8.mb-0(data-aos="fade-up")
-      .p-5
-        .row.justify-content-center.mb-0
-          .col-11.col-md-8.col-xl-7
-            SlyderF(columnas="col-12 col-lg-6")
-              .row.py-4.px-3.h-100
-                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
-                  .row.justify-content-center
-                    .col-6.col-md-4.mb-4
-                      img(src='@/assets/curso/t2/10.svg')
-                  h4.text-center Entrada directa al mercado
-                  p.mb-0.text-center Permite mayor control, pero requiere una inversión significativa.
-
-              .row.py-4.px-3.h-100
-                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
-                  .row.justify-content-center
-                    .col-6.col-md-4.mb-4
-                      img(src='@/assets/curso/t2/11.svg')
-                  h4.text-center Alianzas estratégicas
-                  p.mb-0.text-center Aprovechan la experiencia de actores locales, reduciendo riesgos.
-
-              .row.py-4.px-3.h-100
-                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
-                  .row.justify-content-center
-                    .col-6.col-md-4.mb-4
-                      img(src='@/assets/curso/t2/12.svg')
-                  h4.text-center Licencias o franquicias
-                  p.mb-0.text-center Generan ingresos pasivos, pero limitan el control sobre operaciones.
-
-              .row.py-4.px-3.h-100
-                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
-                  .row.justify-content-center
-                    .col-6.col-md-4.mb-4
-                      img(src='@/assets/curso/t2/13.svg')
-                  h4.text-center Adquisiciones
-                  p.mb-0.text-center Aseguran presencia inmediata, aunque con altos costos.
-
-              .row.py-4.px-3.h-100
-                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
-                  .row.justify-content-center
-                    .col-6.col-md-4.mb-4
-                      img(src='@/assets/curso/t2/14.svg')
-                  h4.text-center Desarrollo gradual del mercado
-                  p.mb-0.text-center Reduce riesgos, al permitir un crecimiento orgánico.
-
-          .col-sm-12.col-lg-4.pe-xl-8.d-none.d-lg-block
-            figure.mb-0
-              img(src='@/assets/curso/t2/15.png')
-
-    .bg-full-width.bg-color-19.mb-0(data-aos="fade-up")
-      .px-5.py-4
-        p.mb-0.fw-bold En el caso colombiano, las estrategias exitosas han considerado factores como:
-    .bg-full-width.bg-color-1.mb-5(data-aos="fade-up")
-      .px-5.py-4
-        .row.justify-content-center.mb-0.align-items-center
-          .col-sm-12.col-lg-7.d-none.d-lg-block
-            img(src='@/assets/curso/t2/16.png')
-          .col-sm-12.col-lg-5
-            ol.lista-ol--cuadro.lista-ol--cuadro--separador.color-terciario
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 1
-                p.mb-0 #[b Alianzas locales:] aprovechan redes empresariales y adaptan propuestas de valor, a las condiciones socioeconómicas.
-              li.mb-0.d-flex
-                .lista-ol--cuadro__vineta
-                  span 2
-                p.mb-0 #[b Estrategias graduales:] adoptadas por plataformas de comercio electrónico, iniciando en nichos específicos para expandirse posteriormente, fortaleciendo la logística y construyendo una base sólida de usuarios.
-
-
-    p.mb-4(data-aos="fade-up") Según Martínez-Gómez (2024), en Innovación y competitividad en las organizaciones, el éxito de una estrategia depende de su alineación con las competencias organizacionales, las características del mercado y las tendencias competitivas. Este enfoque asegura la viabilidad a largo plazo de iniciativas innovadoras y consolida su posición en mercados complejos.
-    .bg-full-width.bg-color-3.mb-0(data-aos="fade-up")
-      .p-5
+      // Bloque: img-bloque
+      .bg-color-2.mb-5(data-aos="fade-up")
         .row.justify-content-center.align-items-center
-          .col-lg-7
-             h2.mb-4 Gestión de la innovación
-             p.mb-4 Se invita a leer el documento para comprender cómo la gestión de la innovación, aborda la financiación estratégica, el escalamiento eficiente y la sostenibilidad, como pilares para transformar ideas en realidades impactantes.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/gestion-innovacion.pdf")' target='_blank')
-               .anexo__icono(:style='{"background-color": "#FCDFDB"}')
-                  img(src='@/assets/template/icono-pdf.svg')
-               .anexo__texto
-                  p <strong>Anexo. </strong> Gestión de la innovación
-          .col-lg-5.d-none.d-lg-block
-             img(src='@/assets/curso/t2/17.png', alt='')
-
-    .bg-full-width.bg-color-white.shadow-soft.mb-5(data-aos="fade-up")
-      .px-5.py-4
-        .row.justify-content-around.align-items-center
-          .col-md-auto.d-none.d-lg-block
-              img(src="@/assets/template/bg-icono-video.svg", style="width: 70px")
-          .col
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                h3.mb-1 Temas sociales, ambientales y de gobernanza
-                p.mb-0 Para ampliar los conocimientos en los temas de investigación estudiados, se sugiere explorar el siguiente video:
-              .col-sm-auto
-                a.boton.color-acento-botones(href='https://youtu.be/ln-UqKWZDZA?si=-nnIsjJxMdcAJ-Fv' target='_blank')
-                  span Ver video
-                  i.fas.fa-arrow-right
-    .bg-full-width.border-top.color-primario
-      .p-4.p-md-5
-        h2 MATERIAL COMPLEMENTARIO
-        .row.material-complem
-          .col-12.col-md-6.col-lg-7
-            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-            //- Referencia con enlace 
-            
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://colombia.endeavor.org/' target='_blank' rel='noopener noreferrer') Endeavor Colombia. (s.f.). Portal oficial de Endeavor Colombia.
-            
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://apps.co/portal/' target='_blank' rel='noopener noreferrer') MinTIC. (s.f.). Portal oficial de Apps.co.
-            
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
-              a(href='https://www.sic.gov.co/cursos-virtuales' target='_blank' rel='noopener noreferrer') Superintendencia de Industria y Comercio
-            
-            //- Referencia de youtube 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
-              a(href='https://youtu.be/uWzeIPIIGYs?si=HyWbzK8k7rz5oyAq' target='_blank' rel='noopener noreferrer') EOI Escuela de Organización Industrial. (2013). Business Market Elche. Modelos de Negocio Innovadores.
-
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
-              a(href='https://youtu.be/ln-UqKWZDZA?si=-nnIsJxMdcAJ-Fv' target='_blank' rel='noopener noreferrer') Valora Analitik. (2022). Temas sociales, ambientales y de gobernanza, el nuevo foco de las empresas.
-
-
-          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+          .col-lg
+            .p-4
+              p.mb-0(data-aos="fade-up") El análisis estadístico se ha convertido en una herramienta esencial en los entornos empresariales, permitiendo transformar datos en decisiones estratégicas. En esta temática, se presentan los fundamentos del modelado estadístico, su integración en plataformas de inteligencia de negocios (BI) y los métodos para validar y monitorear modelos predictivos. A través de un enfoque práctico, se explorarán aplicaciones reales como la previsión de ventas, la segmentación de clientes o el análisis de riesgo, fomentando una comprensión sólida sobre cómo los modelos estadísticos fortalecen la toma de decisiones basada en datos.
+          .col-lg-auto
             figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='')
+              img(src='@/assets/curso/tema2/1.png', alt='')
+
+
+      // Bloque: titulo-segundo
+      #t_2_1.titulo-segundo(data-aos="flip-up")
+        h2 #[span 2.1] Fases del Sprint
+
+      p La comprensión de las fases del Sprint es fundamental para garantizar el éxito en la aplicación del marco de trabajo Scrum, ya que cada etapa cumple un rol específico en la entrega continua de valor.
+
+      // Bloque: anexo-img
+      .bg-full-width.bg-color-5.mb-lg-5
+        .px-4.p-md-5.text-white
+          .row.justify-content-center.align-items-center
+            .col-lg-4
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema2/2.png', alt='')
+            .col-lg-8
+              h3.mb-4(data-aos="flip-up") Fases del Sprint
+              p.mb-4(data-aos="fade-right") En el PDF Fases del Sprint, se describen de manera detallada las cinco fases esenciales que estructuran cada iteración: la planificación, la ejecución del trabajo, el Daily Scrum, la revisión y la retrospectiva. Este recurso permite visualizar cómo estas fases interrelacionadas promueven la mejora continua, la colaboración del equipo y la adaptación ágil a los cambios del proyecto.
+
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p <strong>Anexo. </strong> Fases del Sprint
+
+
+      // Bloque: titulo-segundo
+      #t_2_2.titulo-segundo(data-aos="flip-up")
+        h2 #[span 2.2] Sprint Backlog
+
+      p Para conocer sobre esta temática, lo invitamos a ver el siguiente video.
+
+      // Bloque: video-fondo
+      .bg-full-width.bg-fondo-slider.mb-5
+        .p-4.p-md-5
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/5Y1NqrEX_gw?si=EzgZ7YFgcxhV5pDT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
+      // Bloque: titulo-segundo
+      #t_2_3.titulo-segundo(data-aos="flip-up")
+        h2 #[span 2.3] Estimación y velocidad
+
+      // Bloque: img-bloque
+      .bg-color-1.mb-5(data-aos="fade-up")
+        .row.justify-content-center.align-items-center
+          .col-lg
+            .p-4
+              p.mb-0(data-aos="fade-up") La estimación del esfuerzo y el seguimiento de la velocidad del equipo, son pilares del planeamiento ágil. Estas prácticas permiten establecer expectativas realistas y tomar decisiones informadas sobre qué se puede entregar y cuándo (De Zunzunegui, 2023).
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/tema2/3.png', alt='')
+
+      // Bloque: Título simple
+      h3.mb-4 Estimación en Scrum
+
+      p.mb-4 La estimación en Scrum no trata de predecir con precisión matemática el tiempo exacto de cada tarea, sino de dimensionar el esfuerzo relativo entre tareas.
+
+      p.mb-4 #[strong Los métodos comunes de estimación, son:]
+
+      // Bloque: tarjetas-boton
+      div.row.justify-content-center.align-items-stretch.mb-5
+        div.col-lg-4.mb-4(data-aos="zoom-in-up")
+          div.bg-color-white.box-shadow.px-4.py-5.h-100
+            img.mx-auto.d-block.mb-4(
+              src="@/assets/curso/tema2/4.svg"
+              alt=""
+              style="width: 90px"
+            )
+            h4.mb-4.text-center Planning Poker
+            ul.lista-ul--color.color-dark
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | Técnica colaborativa basada en la serie de Fibonacci (1, 2, 3, 5, 8, 13...).
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | Cada miembro estima en secreto el esfuerzo y se comparan las respuestas para discutir discrepancias.
+
+        div.col-lg-4.mb-4(data-aos="zoom-in-up")
+          div.bg-color-white.box-shadow.px-4.py-5.h-100
+            img.mx-auto.d-block.mb-4(
+              src="@/assets/curso/tema2/5.svg"
+              alt=""
+              style="width: 90px"
+            )
+            h4.mb-2.text-center T-Shirt Sizing
+            ul.lista-ul--color.color-dark
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | Se utiliza cuando los requerimientos aún son vagos. Se asignan tamaños tipo S, M, L, XL a las tareas.
+              li.mb-4
+                i.fas.fa-arrow-circle-right
+                | Útil en etapas iniciales de proyectos grandes.
+
+        div.col-lg-4.mb-4(data-aos="zoom-in-up")
+          div.bg-color-white.box-shadow.px-4.py-5.h-100
+            img.mx-auto.d-block.mb-4(
+              src="@/assets/curso/tema2/6.svg"
+              alt=""
+              style="width: 90px"
+            )
+            h4.mb-4.text-center Three-Point Estimation
+            ul.lista-ul--color.color-dark
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | Se calcula el promedio ponderado de tres escenarios: optimista, más probable y pesimista.
+              li.mb-0
+                i.fas.fa-arrow-circle-right
+                | Permite calcular el riesgo asociado a tareas inciertas.
+
+      // Bloque: bg-full-icono-texto
+      .bg-full-width.bg-color-3.mb-5
+        .px-4.px-md-5.py-4.text-white
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema2/7.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Ejemplo práctico. El equipo debe desarrollar un panel de administración. En una sesión de Planning Poker, algunos estiman que tomará 8 puntos y otros 13. La discrepancia se debe a distintos criterios sobre la complejidad del diseño. Esta discusión lleva a descubrir que se necesitan nuevas validaciones de usuarios, lo que aumenta la estimación y mejora el entendimiento de la tarea.
+
+      // Bloque: Título simple
+      h2.mb-4 Velocidad del equipo (Team Velocity)
+
+      p.mb-4 La velocidad es una medida empírica que indica cuántos puntos de historia logra completar el equipo en un Sprint. Es única para cada equipo y no debe compararse entre grupos, puesto que depende de su contexto, experiencia y dinámica.
+
+      // Bloque: img-acordeon 4:8
+      .row.align-items-start.mb-5
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/tema2/8.png", alt="").mb-4.mb-lg-0
+        .col-lg-8
+
+          AcordionA(tipo="b")
+            .div(titulo="¿Cómo se calcula?")
+              ul.lista-ul--color.color-dark
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Se suman los puntos completados (solo los realmente terminados, según la DoD) al final de cada Sprint.
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Tras varios #[em Sprints], se puede obtener una velocidad promedio.
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Ejemplo]. Si en tres #[em Sprints] el equipo ha completado 25, 28 y 30 puntos, la velocidad media será 27.6 puntos. Esto permite planificar qué tanto trabajo se puede asumir en #[em Sprints] futuros.
+
+            .div(titulo="Aplicación estratégica de la estimación y velocidad")
+              ul.lista-ul--color.color-dark
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Evita sobrecarga de trabajo]: al conocer su velocidad, el equipo no selecciona más trabajo del que puede asumir.
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Permite ajustes realistas del alcance]: si se retrasa un entregable, se puede replantear el backlog sin comprometer la calidad.
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | #[strong Fomenta la mejora continua]: los equipos pueden reflexionar sobre qué factores aumentaron o redujeron su velocidad.
+
+            .div(titulo="Advertencia común en la práctica profesional")
+              ul.lista-ul--color.color-dark
+                li.mb-0
+                  i.fas.fa-arrow-circle-right
+                  | Usar la velocidad como herramienta de presión o comparación entre equipos es una mala práctica. Scrum valora la sostenibilidad del trabajo, no la competencia interna.
+
+      // Bloque: material-complementario
+      .bg-full-width.border-top.color-primario
+        .p-4.p-md-5
+          h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+          .row.material-complementario
+            .col-12.col-md-6.col-lg-7
+              p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/8346" target="_blank" rel="noopener noreferrer") Juárez Núñez, H. (2006). Los sistemas just-in-time/ Kanban, un paradigma productivo. Red Política y Cultura. 
+
+              p.d-flex.my-4
+                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+                a(href="https://www.youtube.com/watch?v=ZDRy5YN19W4" target="_blank" rel="noopener noreferrer") Software Guru. (2013). Webinar Gratuito "Aplicando los 12 principios del Manifiesto ágil a la Gestión de tus proyectos" [video]. YouTube.
+            .col-12.col-md-6.col-lg-3.offset-lg-1
+              figure
+                img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 </template>
 

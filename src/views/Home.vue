@@ -5,7 +5,7 @@
       .bg-white
         .row.g-0
           //- Columna izquierda con imagen
-          .d-none.d-xl-block.d-xl-flex.mb-4.mb-md-0.col-md-4.col-xl-5.imagen-section
+          .d-none.d-xl-block.d-xl-flex.mb-4.mb-md-0.col-md-4.col-xl-6.imagen-section
             img.img-fluid.h-full(
               src="@/assets/portada/banner.png"
               alt="Estudiante virtual"
@@ -18,13 +18,14 @@
               style="max-width: 672px;"
             )
           //- Columna derecha con información
-          .col-xl-7.info-section
+          .col-xl-6.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El ecosistema de innovación en Colombia, integra sectores claves, actores gubernamentales, universidades y empresas, impulsando la competitividad mediante políticas públicas, herramientas de gestión y transferencia tecnológica. Los modelos de negocio innovadores, transforman sectores sociales y tecnológicos con estrategias disruptivas y sostenibles. Con una visión integral, el país fortalece capacidades internas, fomenta la colaboración y aprovecha tendencias globales para generar valor.
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold  "La innovación es el puente hacia un futuro sostenible y competitivo; aprovecha cada oportunidad para cruzarlo".
+              p.descripcion.mb-4 En contextos donde la innovación y la adaptabilidad son esenciales, Scrum se ha posicionado como una de las metodologías ágiles más efectivas para gestionar proyectos. En esta segunda unidad, se profundiza en el funcionamiento de Scrum, sus roles, eventos y artefactos, así como en las herramientas que permiten una gestión eficiente del trabajo en equipo. A través de esta unidad, conocerá cómo se estructura un equipo Scrum, cómo se planifican los sprints y cómo se impulsa la mejora continua, mediante la colaboración activa y el uso estratégico de plataformas digitales.
               
+              p #[b ¡Prepárese para liderar equipos ágiles con claridad, compromiso y orientación a resultados!]
+
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto
@@ -59,6 +60,7 @@ export default {
 
 <style lang="sass">
 .curso-container
+  background-color: $color-fondo-home
   .container
     @media (min-width: 1400px)
       max-width: 1378px
@@ -70,7 +72,7 @@ export default {
   .home-main-title
     font-size: 18px
     font-weight: bold
-    color: $color-institucional
+    color: $color-acento-contenido
   .home-content
     background-color: white
   .info-section
@@ -101,12 +103,12 @@ export default {
       text-align: center
       display: flex
       .iniciar-btn-text
-        background-color: #15DA7E !important
+        background-color: $color-acento-botones
         padding: 12px 42px 12px 32px
         width: 100%
-        color: #000 !important
+        color: #fff !important
     .icon
-      background-color: $color-sistema-e
+      background-color: #496406
       padding: 0px 20px
       color: #fff
       display: flex
@@ -144,14 +146,14 @@ export default {
 
 .iniciar-btn-container
   .iniciar-btn-text
-    transition: all 0.4s ease-in-out
-    background-color: $color-btn-fondo !important
-    color: $color-btn-texto !important
+    transition: all 0.25s ease-in-out
+    background-color: $color-acento-botones !important
+    color: #0B0A0A !important
   .icon
-    transition: all 0.4s ease-in-out
-    background-color: darken($color-btn-fondo, 20%) !important
+    transition: all 0.25s ease-in-out
+    // background-color: #083E61 !important
+    background-color: #5C2C88 !important
   &:hover
     .icon
-      transform: scale(1.05)
-      cursor: pointer
+      transform: scale(1.06)
 </style>
