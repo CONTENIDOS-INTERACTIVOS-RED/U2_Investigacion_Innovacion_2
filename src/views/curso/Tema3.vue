@@ -1,6 +1,6 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Beneficios y desafíos'")
+    BannerInterno(:subTitulo="'3. Herramientas de seguimiento'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
       // Bloque: bloque-img
@@ -261,8 +261,7 @@
           .row
             .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
               h4 JIRA
-              p Conjunto de técnicas numéricas y gráficas para describir y resumir un conjunto de datos.
-              p Se enfoca en organizar, resumir y presentar los datos de manera informativa.
+              p Destaca por su escalabilidad. Es capaz de manejar múltiples equipos en paralelo, con configuraciones distintas para cada proyecto. Se pueden definir flujos de trabajo personalizados, tipos de issues, reglas de automatización, y tableros de seguimiento distintos, según las necesidades del equipo.
             .col-md-6.col-lg-5.col-xl-4.order-1
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema3/10.png', alt='')
@@ -271,8 +270,7 @@
           .row
             .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
               h4 Trello
-              p Conjunto de métodos para hacer deducciones y generalizaciones acerca de las características de una población.
-              p Utiliza la información de una muestra para realizar estimaciones y pruebas de hipótesis.
+              p Trello, aunque limitado en este sentido, ofrece una experiencia más simple, lo que puede ser una ventaja para proyectos pequeños o prototipos que no requieren estructuras complejas.
             .col-md-6.col-lg-5.col-xl-4.order-1
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema3/11.png', alt='')
@@ -334,6 +332,9 @@
       figure.bg-color-1.p-4.p-md-5.mb-5
         img(src="@/assets/curso/tema3/14.svg", data-aos="zoom-in", style="max-width: 900px").mx-auto
 
+
+      p(data-aos="fade-left") El dominio de herramientas como JIRA y Trello, no solo optimiza el seguimiento de los proyectos, sino que potencia la autogestión del equipo, facilita la visibilidad de las tareas y contribuye a la entrega continua de valor. En un entorno ágil, elegir la herramienta adecuada puede marcar la diferencia entre un equipo organizado y uno desbordado por la incertidumbre.
+      
       // Bloque: actividad
       .bg-full-width.border-top.actividad.bg-color-actividad
         .p-4.p-md-5

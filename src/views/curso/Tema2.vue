@@ -8,7 +8,7 @@
         .row.justify-content-center.align-items-center
           .col-lg
             .p-4
-              p.mb-0(data-aos="fade-up") El análisis estadístico se ha convertido en una herramienta esencial en los entornos empresariales, permitiendo transformar datos en decisiones estratégicas. En esta temática, se presentan los fundamentos del modelado estadístico, su integración en plataformas de inteligencia de negocios (BI) y los métodos para validar y monitorear modelos predictivos. A través de un enfoque práctico, se explorarán aplicaciones reales como la previsión de ventas, la segmentación de clientes o el análisis de riesgo, fomentando una comprensión sólida sobre cómo los modelos estadísticos fortalecen la toma de decisiones basada en datos.
+              p.mb-0(data-aos="fade-up") En el marco de Scrum, el Sprint es el corazón del proceso de desarrollo ágil. Cada Sprint es una iteración con duración fija, generalmente entre 1 y 4 semanas, durante las cuales el equipo de desarrollo trabaja para entregar un incremento funcional del producto. Estos ciclos permiten adaptarse al cambio, validar resultados de forma temprana y generar valor continuo. Comprender cómo se estructura un Sprint y cuáles son sus componentes claves, es esencial para garantizar el éxito del enfoque ágil (Monte Galiano, 2016).
           .col-lg-auto
             figure
               img(src='@/assets/curso/tema2/1.png', alt='')

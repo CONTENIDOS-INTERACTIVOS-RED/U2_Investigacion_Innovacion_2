@@ -133,7 +133,7 @@
       #t_1_3.titulo-segundo(data-aos="flip-up")
         h2 #[span 1.3] Interacción entre roles Scrum
 
-      p(data-aos="fade-left").mb-4 El #[em Scrum Master] (SM) no es un jefe ni un gestor de personas, sino un facilitador del proceso Scrum. Su rol es velar por la comprensión e implementación efectiva del marco de trabajo y eliminar los obstáculos que impiden el avance del equipo. Actúa como un mentor, un coach y, en muchos casos, como un protector del equipo frente a las interrupciones externas o dinámicas disfuncionales (Monte Galiano, 2016).
+      p(data-aos="fade-left").mb-4 Una implementación efectiva de Scrum no solo depende de que cada rol realice su trabajo, sino de que exista una dinámica saludable de colaboración entre ellos. Cada uno aporta desde una perspectiva distinta, pero su sinergia es lo que permite entregar valor de manera constante e incremental.
 
       p(data-aos="fade-left").mb-5 Conozcamos sus funciones:
 
